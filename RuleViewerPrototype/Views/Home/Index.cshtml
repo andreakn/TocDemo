@@ -222,14 +222,21 @@
       }
 
       function doFreeTextFilter(filter) {
+         var lastFilter = window.lastFreeTextFilter;
+         if (filter == lastFilter) {
+            $('#filterSpinner').hide();
+            return;
+         };
          if (filter == '') {
             $('#rules li.ruleDoc').removeClass('freeTextFiltered');
          } else {
             $('#rules li.ruleDoc').addClass('freeTextFiltered');
             $('#rules li.ruleDoc[data-freetext*="' + filter + '"]').removeClass('freeTextFiltered');
          }
+         window.lastFreeTextFilter = filter;
          doPostFilterCleanup();
          $('#filterSpinner').hide();
+
       }
 
       function doserviceFilter(filter) {
