@@ -1,6 +1,9 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Linq;
+using System.Web.Mvc;
 using RuleViewerPrototype.Models;
 using RuleViewerPrototype.Repos;
+using RuleViewerPrototype.Utilities;
 
 namespace RuleViewerPrototype.Controllers
 {
@@ -13,12 +16,20 @@ namespace RuleViewerPrototype.Controllers
          _ruleDocRepo = ruleDocRepo;
       }
 
-      public ActionResult Index()
+      public ActionResult Index(string currentAsOf, string industryFilter, string serviceFilter, string freeTextFilter)
       {
-         return View(new RulesModel()
+         var currentAsOfDate = currentAsOf.ToMonthYear() ?? DateTime.MaxValue;
+         var allRules = _ruleDocRepo.GetAllRuleDocs();
+         var model = new RulesModel()
          {
-            RuleDocs = _ruleDocRepo.GetAllRuleDocs()
-         });
+            AllRuleDocs = allRules,
+            RuleDocs = allRules.Where(r=>r.Edition<=currentAsOfDate).ToList(),
+            InitialIndustryFilter = industryFilter,
+            InitialServiceFilter  = serviceFilter,
+            InitialFreeTextFilter = freeTextFilter
+         };
+         model.CheckFilterSanity();
+         return View(model);
       } 
    }
 }

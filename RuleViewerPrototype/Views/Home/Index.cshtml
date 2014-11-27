@@ -4,13 +4,23 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Rearch for rules</h2>
+
+<div class="clear" id="historySelectors">
+   <span>Current as of: </span>
+   <select id="currentAsOf">
+      @foreach (var edition in Model.Editions)
+      {
+         <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
+      }
+   </select>
+   <input type="button" class="btn" id="collapseAll" value="Show only 'Document type' headings" />
+</div>
 
 <div>
    <div id="filters" class="space">
       <div id="filter1" class="filter">
-         Beinthet:
-         <select name="selectService" id="industryFilter">
+         Industry:
+         <select id="industryFilter">
             <option value=""> -- no filter -- </option>
             @foreach (var cat in Model.IndustryCategories)
             {
@@ -19,8 +29,8 @@
          </select>
       </div> 
       <div id="filter2" class="filter">
-         Matkilde:
-         <select name="selectIndustry" id="serviceFilter">
+         Service:
+         <select id="serviceFilter">
             <option value=""> -- no filter -- </option>
             @foreach (var cat in Model.ServiceCategories)
             {
@@ -29,7 +39,7 @@
          </select>
       </div>
       <div id="filter2" class="filter">
-         <input type="text" placeholder="start typing to filter" id="freetextFilter" />
+         <input type="text" placeholder="start typing to filter" id="freeTextFilter" />
       </div>
       <div class="filter">
          <span id="filterSpinner" style="display: none;">
@@ -49,7 +59,7 @@
                         <img src="/Content/Images/plus.gif" class="expandGroup" alt="expand" />
                         <img src="/Content/Images/minus.gif" class="collapseGroup" alt="collapse" style="display: none;" />
                      </span>
-                     <span class="topHeadingplace">
+                     <span class="topHeadingplace clickable">
                         <b>@group.Key</b>
                         <br/>
                         @group.Max(rd=>rd.Edition).MonthYear()
@@ -74,9 +84,9 @@
                          data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant()" class="ruleDoc ruleLayout groupHidden2">
                         <span class="namePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.Name</a></span>
                         <span class="docCodePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.DocumentCode</a></span>
-                        <span class="editionPlace spaceleft weakBottom">@Html.Raw(rule.Edition.MonthYear())</span>
+                        <span class="editionPlace spaceleft weakBottom @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@Html.Raw(rule.Edition.MonthYear())</span>
                         <span class="amendedPlace spaceleft weakBottom">@Html.Raw(rule.Amended.MonthYear())</span>
-                        <span class="statusPlace spaceleft weakBottom">@rule.Status</span>
+                        <span class="statusPlace spaceleft weakBottom @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@rule.Status</span>
                         <span class="historyPlace spaceleft weakBottom">
                            <a href="/Content/Images/notready.png" download>
                               <img src="/Content/Images/plus.gif" class="floatUp" height="18" width="18" class="expandHistory" alt="see history" />
@@ -103,23 +113,16 @@
 
          $('.expandGroup').click(function() {
             var img = $(this);
-            var sibling = img.siblings('.collapseGroup');
-            img.hide();
-            sibling.show();
-            var groupHeading = img.parents('ul.ruleGroup');
-            $('.ruleDoc, .ruleDocHeading', groupHeading).removeClass('groupHidden');
+            expandGroup(img);
          });
-         $('.topHeadingplace').click(function() {
+         $('.topHeadingplace').click(function () {
+
             $('.expandGroup', $(this).parent()).click();
          });
 
          $('.collapseGroup').click(function() {
             var img = $(this);
-            var sibling = img.siblings('.expandGroup');
-            img.hide();
-            sibling.show();
-            var groupHeading = img.parents('ul.ruleGroup');
-            $('.ruleDoc, .ruleDocHeading', groupHeading).addClass('groupHidden');
+            collapseGroup(img);
          });
 
          $('#industryFilter').change(function() {
@@ -131,27 +134,68 @@
             }, 100);
          });
 
-         $('#serviceFilter').change(function () {
+         $('#serviceFilter').change(function() {
             $('#filterSpinner').show();
             var filter = $('#serviceFilter').val();
             clearTimeout(window.serviceTimeout);
-            window.serviceTimeout = setTimeout(function () {
+            window.serviceTimeout = setTimeout(function() {
                doserviceFilter(filter);
             }, 100);
          });
 
-         $('#freetextFilter').bind("propertychange change click keyup input paste", function() {
+         $('#freeTextFilter').bind("propertychange change click keyup input paste", function() {
             $('#filterSpinner').show();
-            var filter = $('#freetextFilter').val();
+            var filter = $('#freeTextFilter').val();
             filter = filter.toLowerCase();
             clearTimeout(window.freeTextTimeout);
-            window.freeTextTimeout = setTimeout(function () {
+            window.freeTextTimeout = setTimeout(function() {
                doFreeTextFilter(filter);
             }, 500);
-           
          });
 
+         $('#collapseAll').click(function() {
+            $('.collapseGroup').each(function() {
+               var img = $(this);
+               collapseGroup(img);
+            });
+         });
+
+         $('#currentAsOf').change(function() {
+            window.location.href = harvestUrl();
+         });
+
+         if ('@Model.InitialIndustryFilter' != '') {
+            $('#industryFilter').val('@Model.InitialIndustryFilter');
+            $('#industryFilter').change();
+         }
+         if ('@Model.InitialServiceFilter' != '') {
+            $('#serviceFilter').val('@Model.InitialServiceFilter');
+            $('#serviceFilter').change();
+         }
+         if ('@Model.InitialFreeTextFilter' != '') {
+            $('#freeTextFilter').val('@Model.InitialServiceFilter');
+            $('#freeTextFilter').change();
+         }
       });
+
+
+      function expandGroup(img) {
+         var sibling = img.siblings('.collapseGroup');
+         img.hide();
+         sibling.show();
+         var groupHeading = img.parents('ul.ruleGroup');
+         groupHeading.addClass('opened');
+         $('.ruleDoc, .ruleDocHeading', groupHeading).removeClass('groupHidden');
+      }
+
+      function collapseGroup(img) {
+         var sibling = img.siblings('.expandGroup');
+         img.hide();
+         sibling.show();
+         var groupHeading = img.parents('ul.ruleGroup');
+         groupHeading.removeClass('opened');
+         $('.ruleDoc, .ruleDocHeading', groupHeading).addClass('groupHidden');
+      }
 
       function doFreeTextFilter(filter) {
          if (filter == '') {
@@ -181,6 +225,26 @@
             $('#rules li.ruleDoc[data-industrycategories *= "' + filter + '"]').removeClass('industryFiltered');
          }
          $('#filterSpinner').hide();
+      }
+
+      function harvestUrl() {
+         var baseUrl = "/";
+         var currentAsOf = $('#currentAsOf').val();
+         var serviceFilter = $('#serviceFilter').val();
+         var industryFilter = $('#industryFilter').val();
+         var freeTextFilter = $('#freeTextFilter').val();
+         var url = baseUrl;
+         url = url + '?currentAsOf=' + currentAsOf;
+         if (serviceFilter != '') {
+            url = url + '&serviceFilter=' + serviceFilter;
+         }
+         if (industryFilter != '') {
+            url = url + '&industryFilter=' + industryFilter;
+         }
+         if (freeTextFilter != '') {
+            url = url + '&freeTextFilter=' + freeTextFilter;
+         }
+         return url;
       }
 
    </script>

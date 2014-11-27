@@ -15,7 +15,13 @@ namespace RuleViewerPrototype.Models
 
       public List<string> IndustryCategories { get; set; }
       public List<string> ServiceCategories { get; set; }
-      
-   
+
+
+      public string LatestEditionClass(DateTime? latestEdition)
+      {
+         if (latestEdition == null) return "";
+         if (latestEdition == Edition) return "latestEdition";
+         return "";
+      }
    }
 }

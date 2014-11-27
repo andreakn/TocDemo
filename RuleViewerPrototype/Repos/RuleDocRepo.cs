@@ -31,6 +31,7 @@ namespace RuleViewerPrototype.Repos
          {
             rules = _reader.ReadFromFile();
          }
+        
          return rules;
       }
    }

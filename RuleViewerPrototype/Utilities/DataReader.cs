@@ -61,22 +61,21 @@ namespace RuleViewerPrototype.Utilities
 
       private string GetHeadingName(string docType)
       {
-         return docType;
          switch (docType) 
          {
-            case "IN": return "";
-            case "RP": return "";
-            case "RU": return "";
-            case "SE": return "";
-            case "ST": return "";
-            case "RU-SHIP": return "";
-            case "RU-HSLC": return "";
-            case "RU-YACHTS": return "";
-            case "RU-MOU": return "";
-            case "RU-NAVAL": return "";
-            case "RU-UWT": return "";
-            case "RU-FLOAT": return "";
-            case "RU-INV": return "";
+            case "IN": return "DNV GL 'IN'";
+            case "RP": return "DNV GL recommended practices";
+            case "RU": return "DNV GL rules for classification";
+            case "SE": return "DNV GL service specifications";
+            case "ST": return "DNV GL standards";
+            case "RU-SHIP": return "DNV GL rules for classification (SHIP)";
+            case "RU-HSLC": return "DNV GL rules for classification (HSLC)";
+            case "RU-YACHTS": return "DNV GL rules for classification (YACHTS)";
+            case "RU-MOU": return "DNV GL rules for classification (MOU)";
+            case "RU-NAVAL": return "DNV GL rules for classification (NAVAL)";
+            case "RU-UWT": return "DNV GL rules for classification (UWT)";
+            case "RU-FLOAT": return "DNV GL rules for classification (FLOAT)";
+            case "RU-INV": return "DNV GL rules for classification (INV)";
 
          }
          return "(UNKNOWN)";

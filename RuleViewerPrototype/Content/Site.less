@@ -30,6 +30,14 @@ div.space {
    display:none;
 }
 
+.latestEdition{
+   color:red;
+}
+
+.clickable{
+   cursor: pointer;
+}
+
 /* table layout */
 @tablewidth : 1140px;
 @gap : 2px;
@@ -61,6 +69,12 @@ div.space {
          border-bottom:1px solid #eee; 
       }
 
+      li.ruleGroupHeading.opened{
+         span{
+            background-color:lightblue;
+         }
+      }
+
       li.ruleGroupHeading{
          width:@tablewidth;
          clear:both;
@@ -68,7 +82,6 @@ div.space {
          margin-bottom:3px;
          span{
             float:left;
-            background-color:lightblue;
             height: 35px;
          }
          span.spaceleft{
