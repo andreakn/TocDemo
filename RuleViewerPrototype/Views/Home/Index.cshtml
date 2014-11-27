@@ -7,20 +7,21 @@
 
 <div class="clear" id="historySelectors">
    <span>Current as of: </span>
-   <select id="currentAsOf">
+   <select id="currentAsOf" class="input-sm">
       @foreach (var edition in Model.Editions)
       {
          <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
       }
    </select>
-   <input type="button" class="btn" id="collapseAll" value="Show only 'Document type' headings" />
+   <input type="button" class="btn btn-default btn-sm" id="collapseAll" value="Show only 'Document type' headings" />
+   <input type="button" class="btn btn-default btn-sm" id="expandAll" value="Show all documents" />
 </div>
 
 <div>
    <div id="filters" class="space">
       <div id="filter1" class="filter">
          Industry:
-         <select id="industryFilter">
+         <select id="industryFilter" class="input-sm">
             <option value=""> -- no filter -- </option>
             @foreach (var cat in Model.IndustryCategories)
             {
@@ -28,9 +29,9 @@
             }
          </select>
       </div> 
-      <div id="filter2" class="filter">
+      <div id="filter2" class="filter" >
          Service:
-         <select id="serviceFilter">
+         <select id="serviceFilter" class="input-sm">
             <option value=""> -- no filter -- </option>
             @foreach (var cat in Model.ServiceCategories)
             {
@@ -39,7 +40,7 @@
          </select>
       </div>
       <div id="filter2" class="filter">
-         <input type="text" placeholder="start typing to filter" id="freeTextFilter" />
+         Free text filter: <input type="text" class="input-xs" placeholder="start typing to filter" id="freeTextFilter" />
       </div>
       <div class="filter">
          <span id="filterSpinner" style="display: none;">
@@ -68,7 +69,7 @@
                      <span class="statusPlace spaceleft"></span>
                      <span class="historyPlace spaceleft"></span>
                   </li>
-                  <li class="ruleDocHeading ruleLayout groupHidden2"  >
+                  <li class="ruleDocHeading ruleLayout groupHidden"  >
                      <span class="namePlace weakBottom">&nbsp;</span>
                      <span class="docCodePlace weakBottom"><b>Document code</b></span>
                      <span class="editionPlace spaceleft weakBottom"><b>Edition</b></span>
@@ -76,13 +77,21 @@
                      <span class="statusPlace spaceleft weakBottom">&nbsp;</span>
                      <span class="historyPlace spaceleft weakBottom"><b>History</b></span>
                   </li>
-                  @foreach (var rule in group)
+                  @foreach (var rule in group.OrderBy(r=>r.RulePartNumber).ThenBy(r=>r.RuleChapterNumber).ThenBy(r=>r.Name))
                   {
                      <li 
                         data-servicecategories='@string.Join(" ",rule.ServiceCategories)' 
                         data-industrycategories='@string.Join(" ",rule.IndustryCategories)' 
-                         data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant()" class="ruleDoc ruleLayout groupHidden2">
-                        <span class="namePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.Name</a></span>
+                         data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant() @rule.GetRulePartAndChapter() @rule.GetRulePartAndChapter(true)" class="ruleDoc ruleLayout groupHidden">
+                        <span class="namePlace weakBottom">
+                           @if (rule.RulePartNumber > 0)
+                           {
+                              <span>@rule.GetRulePartAndChapter()</span>
+                              <span class="padLeft">&nbsp;</span>
+                           }
+                           
+                           <a href="/Content/Images/notready.png" download>@rule.Name</a>
+                        </span>
                         <span class="docCodePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.DocumentCode</a></span>
                         <span class="editionPlace spaceleft weakBottom @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@Html.Raw(rule.Edition.MonthYear())</span>
                         <span class="amendedPlace spaceleft weakBottom">@Html.Raw(rule.Amended.MonthYear())</span>
@@ -116,8 +125,13 @@
             expandGroup(img);
          });
          $('.topHeadingplace').click(function () {
-
-            $('.expandGroup', $(this).parent()).click();
+            var expandButton = $('.expandGroup', $(this).parent());
+            var collapseButton = $('.collapseGroup', $(this).parent());
+            if (expandButton.is(':visible')) {
+               expandButton.click();
+            } else {
+               collapseButton.click();
+            }
          });
 
          $('.collapseGroup').click(function() {
@@ -143,7 +157,7 @@
             }, 100);
          });
 
-         $('#freeTextFilter').bind("propertychange change click keyup input paste", function() {
+         $('#freeTextFilter').bind("propertychange change keyup input paste", function() {
             $('#filterSpinner').show();
             var filter = $('#freeTextFilter').val();
             filter = filter.toLowerCase();
@@ -157,6 +171,13 @@
             $('.collapseGroup').each(function() {
                var img = $(this);
                collapseGroup(img);
+            });
+         });
+
+         $('#expandAll').click(function() {
+            $('.expandGroup').each(function() {
+               var img = $(this);
+               expandGroup(img);
             });
          });
 
@@ -183,8 +204,10 @@
          var sibling = img.siblings('.collapseGroup');
          img.hide();
          sibling.show();
+         var ruleGroupHeading = img.parents('.ruleGroupHeading');
+         ruleGroupHeading.addClass('opened');
+
          var groupHeading = img.parents('ul.ruleGroup');
-         groupHeading.addClass('opened');
          $('.ruleDoc, .ruleDocHeading', groupHeading).removeClass('groupHidden');
       }
 
@@ -192,8 +215,9 @@
          var sibling = img.siblings('.expandGroup');
          img.hide();
          sibling.show();
+         var ruleGroupHeading = img.parents('.ruleGroupHeading');
+         ruleGroupHeading.removeClass('opened');
          var groupHeading = img.parents('ul.ruleGroup');
-         groupHeading.removeClass('opened');
          $('.ruleDoc, .ruleDocHeading', groupHeading).addClass('groupHidden');
       }
 
@@ -204,6 +228,7 @@
             $('#rules li.ruleDoc').addClass('freeTextFiltered');
             $('#rules li.ruleDoc[data-freetext*="' + filter + '"]').removeClass('freeTextFiltered');
          }
+         doPostFilterCleanup();
          $('#filterSpinner').hide();
       }
 
@@ -214,6 +239,7 @@
             $('#rules li.ruleDoc').addClass('serviceFiltered');
             $('#rules li.ruleDoc[data-servicecategories *= "' + filter + '"]').removeClass('serviceFiltered');
          }
+         doPostFilterCleanup();
          $('#filterSpinner').hide();
       }
 
@@ -224,6 +250,7 @@
             $('#rules li.ruleDoc').addClass('industryFiltered');
             $('#rules li.ruleDoc[data-industrycategories *= "' + filter + '"]').removeClass('industryFiltered');
          }
+         doPostFilterCleanup();
          $('#filterSpinner').hide();
       }
 
@@ -245,6 +272,27 @@
             url = url + '&freeTextFilter=' + freeTextFilter;
          }
          return url;
+      }
+
+      function doPostFilterCleanup() {
+         $('.ruleGroup').each(function() { cleanupRuleGroup($(this)); });
+      }
+
+      function cleanupRuleGroup(group) {
+         var collapseButton = $('.collapseGroup', group);
+         var expandButton = $('.expandGroup', group);
+         var visible = $('.ruleDoc', group)
+         .not('.freeTextFiltered')
+         .not('.serviceFiltered')
+         .not('.industryFiltered')
+         .length
+         ;
+         debugger;
+         if (visible == 0) {
+            collapseButton.click();
+         } else {
+            expandButton.click();
+         }
       }
 
    </script>

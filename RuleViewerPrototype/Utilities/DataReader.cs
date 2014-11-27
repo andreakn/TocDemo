@@ -40,7 +40,7 @@ namespace RuleViewerPrototype.Utilities
       {
          try
          {
-            return new RuleDoc
+            var rule = new RuleDoc
             {
                DocumentCode = string.Format("{0}-{1}-{2}", poco.DocCodePrefix, poco.DocCodeType, poco.DocCodeSerialNo),
                ServiceCategories = poco.Service.Split(' ').Where(s => !string.IsNullOrEmpty(s)).ToList(),
@@ -50,8 +50,17 @@ namespace RuleViewerPrototype.Utilities
                FileName = "unknown.pdf",
                HeadingName = GetHeadingName(poco.DocType),
                Name = poco.DocumentTitle,
-               Status = "NEW"
+               Status = "NEW",
+               RulePartNumber=int.Parse("0"+poco.RUPartNo),
+               RuleChapterNumber=int.Parse("0"+poco.RUChapterNo)
             };
+
+            if (poco.DocCodeType == "RU")
+            {
+               bool duup = false;
+            }
+
+            return rule;
          }
          catch (Exception ex)
          {
@@ -63,19 +72,19 @@ namespace RuleViewerPrototype.Utilities
       {
          switch (docType) 
          {
-            case "IN": return "DNV GL 'IN'";
+            case "IN": return "DNV GL Interpretations";
             case "RP": return "DNV GL recommended practices";
             case "RU": return "DNV GL rules for classification";
             case "SE": return "DNV GL service specifications";
             case "ST": return "DNV GL standards";
-            case "RU-SHIP": return "DNV GL rules for classification (SHIP)";
-            case "RU-HSLC": return "DNV GL rules for classification (HSLC)";
-            case "RU-YACHTS": return "DNV GL rules for classification (YACHTS)";
-            case "RU-MOU": return "DNV GL rules for classification (MOU)";
-            case "RU-NAVAL": return "DNV GL rules for classification (NAVAL)";
-            case "RU-UWT": return "DNV GL rules for classification (UWT)";
-            case "RU-FLOAT": return "DNV GL rules for classification (FLOAT)";
-            case "RU-INV": return "DNV GL rules for classification (INV)";
+            case "RU-SHIP": return "DNV GL rules for classification of ships";
+            case "RU-HSLC": return "DNV GL rules for classification of high speed, light crafts and naval surface crafts";
+            case "RU-YACHTS": return "DNV GL rules for classification of yachts";
+            case "RU-MOU": return "DNV GL rules for classification of mobile offshore units";
+            case "RU-NAVAL": return "DNV GL rules for classification of naval vessels";
+            case "RU-UWT": return "DNV GL rules for classification of underwater technology and subsea vessels";
+            case "RU-FLOAT": return "DNV GL rules for classification of floating docks";
+            case "RU-INV": return "DNV GL rules for classification of inland navigation vessels";
 
          }
          return "(UNKNOWN)";
