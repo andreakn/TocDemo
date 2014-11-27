@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace RuleViewerPrototype.Utilities
 {
@@ -12,6 +13,18 @@ namespace RuleViewerPrototype.Utilities
       public static string MonthYear(this DateTime dateTime)
       {
          return dateTime.ToString("yyyy-MM");
+      }
+      public static DateTime? ToMonthYear(this string input)
+      {
+         if (input == null) return null;
+         try
+         {
+            return DateTime.ParseExact(input, "yyyy-MM", CultureInfo.InvariantCulture);
+         }
+         catch(Exception ex)
+         {
+            return null;
+         }
       }
    }
 }

@@ -10,9 +10,9 @@
    <div id="filters" class="space">
       <div id="filter1" class="filter">
          Beinthet:
-         <select name="Leggedness" id="legFilter">
+         <select name="selectService" id="industryFilter">
             <option value=""> -- no filter -- </option>
-            @foreach (var cat in Model.LegCategories)
+            @foreach (var cat in Model.IndustryCategories)
             {
                <option value="@cat">@cat</option>
             }
@@ -20,9 +20,9 @@
       </div> 
       <div id="filter2" class="filter">
          Matkilde:
-         <select name="Eating" id="foodFilter">
+         <select name="selectIndustry" id="serviceFilter">
             <option value=""> -- no filter -- </option>
-            @foreach (var cat in Model.FoodCategories)
+            @foreach (var cat in Model.ServiceCategories)
             {
                <option value="@cat">@cat</option>
             }
@@ -69,8 +69,8 @@
                   @foreach (var rule in group)
                   {
                      <li 
-                        data-foodcategories='@string.Join(" ",rule.FoodCategories)' 
-                        data-legcategories='@string.Join(" ",rule.LegCategories)' 
+                        data-servicecategories='@string.Join(" ",rule.ServiceCategories)' 
+                        data-industrycategories='@string.Join(" ",rule.IndustryCategories)' 
                          data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant()" class="ruleDoc ruleLayout groupHidden2">
                         <span class="namePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.Name</a></span>
                         <span class="docCodePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.DocumentCode</a></span>
@@ -96,8 +96,8 @@
 @section scripts
 {
    <script>
-      window.legTimeout = null;
-      window.foodTimeout = null;
+      window.industryTimeout = null;
+      window.serviceTimeout = null;
       window.freeTextTimeout = null;
       $(document).ready(function() {
 
@@ -122,21 +122,21 @@
             $('.ruleDoc, .ruleDocHeading', groupHeading).addClass('groupHidden');
          });
 
-         $('#legFilter').change(function() {
+         $('#industryFilter').change(function() {
             $('#filterSpinner').show();
-            var filter = $('#legFilter').val();
-            clearTimeout(window.legTimeout);
-            window.legTimeout = setTimeout(function() {
-               doLegFilter(filter);
+            var filter = $('#industryFilter').val();
+            clearTimeout(window.industryTimeout);
+            window.industryTimeout = setTimeout(function() {
+               doindustryFilter(filter);
             }, 100);
          });
 
-         $('#foodFilter').change(function () {
+         $('#serviceFilter').change(function () {
             $('#filterSpinner').show();
-            var filter = $('#foodFilter').val();
-            clearTimeout(window.foodTimeout);
-            window.foodTimeout = setTimeout(function () {
-               doFoodFilter(filter);
+            var filter = $('#serviceFilter').val();
+            clearTimeout(window.serviceTimeout);
+            window.serviceTimeout = setTimeout(function () {
+               doserviceFilter(filter);
             }, 100);
          });
 
@@ -163,22 +163,22 @@
          $('#filterSpinner').hide();
       }
 
-      function doFoodFilter(filter) {
+      function doserviceFilter(filter) {
          if (filter == '') {
-            $('#rules li.ruleDoc').removeClass('foodFiltered');
+            $('#rules li.ruleDoc').removeClass('serviceFiltered');
          } else {
-            $('#rules li.ruleDoc').addClass('foodFiltered');
-            $('#rules li.ruleDoc[data-foodcategories *= "' + filter + '"]').removeClass('foodFiltered');
+            $('#rules li.ruleDoc').addClass('serviceFiltered');
+            $('#rules li.ruleDoc[data-servicecategories *= "' + filter + '"]').removeClass('serviceFiltered');
          }
          $('#filterSpinner').hide();
       }
 
-      function doLegFilter(filter) {
+      function doindustryFilter(filter) {
          if (filter == '') {
-            $('#rules li.ruleDoc').removeClass('legFiltered');
+            $('#rules li.ruleDoc').removeClass('industryFiltered');
          } else {
-            $('#rules li.ruleDoc').addClass('legFiltered');
-            $('#rules li.ruleDoc[data-legcategories *= "' + filter + '"]').removeClass('legFiltered');
+            $('#rules li.ruleDoc').addClass('industryFiltered');
+            $('#rules li.ruleDoc[data-industrycategories *= "' + filter + '"]').removeClass('industryFiltered');
          }
          $('#filterSpinner').hide();
       }

@@ -9,12 +9,12 @@ namespace RuleViewerPrototype.Models
       public string Name { get; set; }
       public string FileName { get; set; }
       public string DocumentCode { get; set; }
-      public DateTime Edition { get; set; }
+      public DateTime? Edition { get; set; }
       public DateTime? Amended { get; set; }
       public string Status { get; set; }
 
-      public List<string> LegCategories { get; set; }
-      public List<string> FoodCategories { get; set; }
+      public List<string> IndustryCategories { get; set; }
+      public List<string> ServiceCategories { get; set; }
       
    
    }

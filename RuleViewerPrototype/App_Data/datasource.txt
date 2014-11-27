@@ -1,0 +1,673 @@
+Prefix for use in doc-code	Doctype for use in doc-code	Serial number for use in doc-code	Doctype for doctype headings on page	Service	Industry	Part number (for RU only)	Chapter number (for RU only)	Subtype (for RU: part title)	Document title (for RU: chapter title)	Edition	Amended	History	L-DNV type	L-DNV code	Program	WP or Project
+DNVGL	SE	1200	SE	Ship classification					Rules for Classification of Diving Systems				"DSS;#4"	DSS-105	ORS	"WP 8;#8"
+DNVGL	ST	1201	ST	Ship classification	Maritime				Standard for Surface Diving Systems	2015-12			"DS;#6"	DS-E403	ORS	"WP 8;#8"
+DNVGL	SE	1206	SE	Offshore classification	Maritime				Classification based on Performance Criteria determined from Risk Assessment Methods	2015-11			"OSS;#5"	OSS-121	Offshore	"Offshore;#11"
+DNVGL	SE	1207	SE	Offshore classification	Maritime				Verification for Compliance with Norwegian Shelf Regulations	2015-11			"OSS;#5"	OSS-201	Offshore	"Offshore;#11"
+DNVGL	SE	1208	SE	Offshore classification	Maritime				Verification for Compliance with UK Shelf Regulations	2015-11			"OSS;#5"	OSS-202	Offshore	"Offshore;#11"
+DNVGL	ST	1209	ST	Offshore classification	Maritime				OS-A101: Safety Principles and Arrangement	2015-11			"OS;#7"	OS-A101	Offshore	"Offshore;#11"
+DNVGL	ST	1210	ST	Offshore classification	Maritime				OS-B101: Metallic Materials	2015-11			"OS;#7"	OS-B101	Offshore	"Offshore;#11"
+DNVGL	ST	1211	ST	Offshore classification	Maritime				OS-J101: Design of Offshore Steel Structures, General (LRFD Method)	2015-11			"OS;#7"	OS-J101	Offshore	"Offshore;#11"
+DNVGL	ST	1212	ST	Offshore classification	Maritime				OS-C102: Structural Design of Offshore Ships	2015-11			"OS;#7"	OS-C102	Offshore	"Offshore;#11"
+DNVGL	ST	1213	ST	Offshore classification	Maritime				OS-C103: Structural Design of Column Stabilised Units (LRFD Method)	2015-11			"OS;#7"	OS-C103	Offshore	"Offshore;#11"
+DNVGL	ST	1214	ST	Offshore classification	Maritime				OS-C104: Structural Design of Self-Elevating Units (LRFD Method)	2015-11			"OS;#7"	OS-C104	Offshore	"Offshore;#11"
+DNVGL	ST	1215	ST	Offshore classification	Maritime				OS-C105: Structural Design of TLPs (LRFD Method)	2015-11			"OS;#7"	OS-C105	Offshore	"Offshore;#11"
+DNVGL	ST	1216	ST	Offshore classification	Maritime				OS-C106: Structural Design of Deep Draught Floating Units (LRFD Method)	2015-11			"OS;#7"	OS-C106	Offshore	"Offshore;#11"
+DNVGL	ST	1217	ST	Offshore classification	Maritime				OS-C201: Structural Design of Offshore Units (WSD Method)	2015-11			"OS;#7"	OS-C201	Offshore	"Offshore;#11"
+DNVGL	ST	1218	ST	Offshore classification	Maritime				OS-C301: Stability and Watertight Integrity	2015-11			"OS;#7"	OS-C301	Offshore	"Offshore;#11"
+DNVGL	ST	1219	ST	Offshore classification	Maritime				OS-C401: Fabrication and Testing of Offshore Structures	2015-11			"OS;#7"	OS-C401	Offshore	"Offshore;#11"
+DNVGL	ST	1220	ST	Offshore classification	Maritime				OS-D101: Marine and Machinery Systems and Equipment	2015-11			"OS;#7"	OS-D101	Offshore	"Offshore;#11"
+DNVGL	ST	1221	ST	Offshore classification	Maritime				OS-D201: Electrical Installations	2015-11			"OS;#7"	OS-D201	Offshore	"Offshore;#11"
+DNVGL	ST	1222	ST	Offshore classification	Maritime				OS-D202: Instrumentation and Telecommunication Systems	2015-11			"OS;#7"	OS-D202	Offshore	"Offshore;#11"
+DNVGL	ST	1223	ST	Offshore classification	Maritime				OS-D203: Integrated Software Dependent System (ISDS)	2015-11			"OS;#7"	OS-D203	Offshore	"Offshore;#11"
+DNVGL	ST	1224	ST	Offshore classification	Maritime				OS-D301: Fire Protection	2015-11			"OS;#7"	OS-D301	Offshore	"Offshore;#11"
+DNVGL	ST	1225	ST	Offshore classification	Maritime				OS-E101: Drilling Plant	2015-11			"OS;#7"	OS-E101	Offshore	"Offshore;#11"
+DNVGL	ST	1226	ST	Offshore classification	Maritime				OS-E201: Hydrocarbon Production Plant	2015-11			"OS;#7"	OS-E201	Offshore	"Offshore;#11"
+DNVGL	ST	1227	ST	Offshore classification	Maritime				OS-E301: Position Mooring	2015-11			"OS;#7"	OS-E301	Offshore	"Offshore;#11"
+DNVGL	ST	1228	ST	Offshore classification	Maritime				OS-E302: Offshore Mooring Chain	2015-11			"OS;#7"	OS-E302	Offshore	"Offshore;#11"
+DNVGL	ST	1229	ST	Offshore classification	Maritime				OS-E303: Offshore Mooring Fibre Ropes	2015-11			"OS;#7"	OS-E303	Offshore	"Offshore;#11"
+DNVGL	ST	1230	ST	Offshore classification	Maritime				OS-E304: Offshore Mooring Steel Wire Ropes	2015-11			"OS;#7"	OS-E304	Offshore	"Offshore;#11"
+DNVGL	ST	1231	ST	Offshore classification	Maritime				OS-E401: Helicopter Decks	2015-11			"OS;#7"	OS-E401	Offshore	"Offshore;#11"
+DNVGL	ST	1232	ST	Ship classification	Maritime				OS-E402: Diving Systems	2015-11			"OS;#7"	OS-E402	ORS	"WP 8;#8"
+DNVGL	ST	1233	ST	Offshore classification	Maritime				OS-E403: Offshore loading Buoys	2015-11			"OS;#7"	OS-E403	Offshore	"Offshore;#11"
+DNVGL	ST	1234	ST	Offshore classification	Maritime				OS-E406: Design of Free Fall Lifeboats	2015-11			"OS;#7"	OS-E406	Offshore	"Offshore;#11"
+DNVGL	ST	1235	ST	Offshore classification	Maritime				OS-J301: Standard for Classification of Wind Turbine Installation Units	2015-11			"OS;#7"	OS-J301	Offshore	"Offshore;#11"
+DNVGL	IN	1236	IN	Ship classification	Maritime				Introduction	2016-01			"SI;#9"		FIS	"Statutory certification;#13"
+DNVGL	IN	1237	IN	Ship classification	Maritime				Construction	2016-01			"SI;#9"	SOLAS Ch. II-1	FIS	"Statutory certification;#13"
+DNVGL	IN	1238	IN	Ship classification	Maritime				Construction - Fire Protection, Fire Detection and Fire Extinction, FSS Code, IMSBC Code	2016-01			"SI;#9"	SOLAS Ch. II-2	FIS	"Statutory certification;#13"
+DNVGL	IN	1239	IN	Ship classification	Maritime				Lifesaving Arrangement, LSA Code	2016-01			"SI;#9"	SOLAS Ch.III	FIS	"Statutory certification;#13"
+DNVGL	IN	1240	IN	Ship classification	Maritime				Radio Communications - Global Maritime Distress and Safety System (GMDSS)	2016-01			"SI;#9"	SOLAS Ch.IV	FIS	"Statutory certification;#13"
+DNVGL	IN	1241	IN	Ship classification	Maritime				Safety of Navigation	2016-01			"SI;#9"	SOLAS Ch.V	FIS	"Statutory certification;#13"
+DNVGL	IN	1242	IN	Ship classification	Maritime				Management for the Safe Operation of Ships, ISM Code	2016-01			"SI;#9"	SOLAS Ch.IX	FIS	"Mgt systems certification;#17"
+DNVGL	IN	1243	IN	Ship classification	Maritime				Special Measures to Enhance Maritime Security	2016-01			"SI;#9"	SOLAS Ch.XI-2	FIS	"Mgt systems certification;#17"
+DNVGL	RP	1244	RP	Ship classification	Maritime				Repair of Surface / Dimension by means of Metal Coating	2016-02			"CN;#12"	4.3	ORS	"WP 5;#5"
+DNVGL	RP	1245	RP	Ship classification	Maritime				Non-destructive testing	2016-02			"CN;#12"	7	ORS	"WP 5;#5"
+DNVGL	RP	1246	RP	Ship classification	Maritime				Conversion of Ships	2016-02			"CN;#12"	8	ORS	"WP 7 ;#7"
+DNVGL	RP	1247	RP	Ship classification	Maritime				Guidance for Condition Monitoring	2016-02			"CN;#12"	10.2	ORS	"WP 2;#2"
+DNVGL	RP	1248	RP	Ship classification	Maritime				Stability Documentation for Approval	2016-02			"CN;#12"	20.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1249	RP	Ship classification	Maritime				Approval and Certification of the Software of Loading Computer Systems	2016-02			"CN;#12"	21.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1250	RP	Ship classification	Maritime				Buckling Strength analysis of bars and frames, and spherical shells	2016-02			"CN;#12"	30.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1251	RP	Ship classification	Maritime				Strength analysis of LNG carriers w. spherical tanks	2016-02			"CN;#12"	30.2	ORS	"WP 7 ;#7"
+DNVGL	RP	1252	RP	Ship classification	Maritime				Buckling Criteria of LNG Spherical Cargo Tank Containment Systems - Skirt and Sphere	2016-02			"CN;#12"	30.3	ORS	"WP 7 ;#7"
+DNVGL	RP	1253	RP		Maritime				Foundations	2016-02			"CN;#12"	30.4	Offshore	"Offshore;#11;#WP 7 ;#7"
+DNVGL	RP	1254	RP	Ship classification	Maritime				Structural Reliability Analysis of Marine Structures	2016-02			"CN;#12"	30.6	ORS	"WP 7 ;#7"
+DNVGL	RP	1255	RP	Ship classification	Maritime				Fatigue Assessment of Ship Structures	2016-02			"CN;#12"	30.7	ORS	"WP 7 ;#7"
+DNVGL	RP	1256	RP	Ship classification	Maritime				Strength Analysis of Hull Structures in High Speed and Light Craft	2016-02			"CN;#12"	30.8	ORS	"WP 8;#8"
+DNVGL	RP	1257	RP	Ship classification	Maritime				Sloshing Analysis of LNG Membrane Tanks	2016-02			"CN;#12"	30.9	ORS	"WP 7 ;#7"
+DNVGL	RP	1258	RP	Ship classification	Maritime				Extra High Strength Steel Material NV47 for Hull Structural Application in Container Ships	2016-02			"CN;#12"	30.10	ORS	"WP 7 ;#7"
+DNVGL	RP	1259	RP	Ship classification	Maritime				Steel Sandwich Panel Construction	2016-02			"CN;#12"	30.11	ORS	"WP 7 ;#7"
+DNVGL	RP	1260	RP	Ship classification	Maritime				Fatigue Strength and Ultimate Capacity Check of Container Vessels Including the Effect of Springing and Whipping	2016-02			"CN;#12"	30.12	ORS	"WP 7 ;#7"
+DNVGL	RP	1261	RP	Ship classification	Maritime				Strength Analysis of Hull Structures in Bulk Carriers	2016-02			"CN;#12"	31.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1262	RP	Ship classification	Maritime				Strength Analysis of Hull Structures in Roll on/Roll off Ships and Car Carriers	2016-02			"CN;#12"	31.2	ORS	"WP 7 ;#7"
+DNVGL	RP	1263	RP	Ship classification	Maritime				Strength Analysis of Hull Structures in Tankers	2016-02			"CN;#12"	31.3	ORS	"WP 7 ;#7"
+DNVGL	RP	1264	RP	Ship classification	Maritime				Strength Analysis of Hull Structures in Container Ships	2016-02			"CN;#12"	31.7	ORS	"WP 7 ;#7"
+DNVGL	RP	1265	RP	Ship classification	Maritime				Direct Strength Analysis of Hull Structures in Passenger Ships	2015-10			"CN;#12"	31.8	ORS	"WP 7 ;#7"
+DNVGL	RP	1266	RP	Ship classification	Maritime				Strength Analysis of Hull Structure in Liquefied Gas Carriers with Membrane Tanks	2015-10			"CN;#12"	31.9	ORS	"WP 7 ;#7"
+DNVGL	RP	1267	RP	Ship classification	Maritime				Strength Analysis of Liquefied Gas Carriers with Independent Type A Prismatic Tanks	2015-10			"CN;#12"	31.11	ORS	"WP 7 ;#7"
+DNVGL	RP	1268	RP	Ship classification	Maritime				Strength Analysis of Liquefied Gas Carriers with Independent Type B Prismatic Tanks	2015-10			"CN;#12"	31.12	ORS	"WP 7 ;#7"
+DNVGL	RP	1269	RP	Ship classification	Maritime				Strength Analysis of Independent Type C Tanks	2015-10			"CN;#12"	31.13	ORS	"WP 7 ;#7"
+DNVGL	RP	1270	RP	Ship classification	Maritime				Strength Analysis of Rudder Arrangements	2015-10			"CN;#12"	32.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1271	RP	Ship classification	Maritime				Container Securing	2015-10			"CN;#12"	32.2	ORS	"WP 7 ;#7"
+DNVGL	RP	1272	RP	Ship classification	Maritime				Corrosion Prevention of Tanks and Holds	2015-10			"CN;#12"	33.1	ORS	"WP 5;#5"
+DNVGL	RP	1273	RP	Ship classification	Maritime				CSA - Direct Analysis of ship structures	2015-10			"CN;#12"	34.1	ORS	"WP 7 ;#7"
+DNVGL	RP	1274	RP	Ship classification	Maritime				PLUS - extended fatigue analysis of ship details	2015-10			"CN;#12"	34.2	ORS	"WP 7 ;#7"
+DNVGL	RP	1275	RP	Ship classification	Maritime				Calculation of Gear Rating for Marine Transmission	2015-10			"CN;#12"	41.2	ORS	"WP 6;#6"
+DNVGL	RP	1276	RP	Ship classification	Maritime				Calculation of Crankshafts for Diesel Engines	2015-10			"CN;#12"	41.3	ORS	"WP 6;#6"
+DNVGL	RP	1277	RP	Ship classification	Maritime				Calculation of Shafts in Marine Applications	2015-10			"CN;#12"	41.4	ORS	"WP 6;#6"
+DNVGL	RP	1278	RP	Ship classification	Maritime				Calculation of Marine Propellers	2015-10			"CN;#12"	41.5	ORS	"WP 6;#6"
+DNVGL	RP	1279	RP	Ship classification	Maritime				Schematic principles for Steering Gear Hydraulics	2015-10			"CN;#12"	41.6	ORS	"WP 6;#6"
+DNVGL	RP	1280	RP	Ship classification	Maritime				Ice Strengthening of Propulsion Machinery	2015-10			"CN;#12"	51.1	ORS	"WP 6;#6"
+DNVGL	RP	1281	RP	Ship classification	Maritime				Shock Testing of Equipment and Systems – Naval Applications	2015-10			"CN;#12"	57.1	ORS	"WP 6;#6"
+DNVGL	RP	1282	RP	Ship classification	Maritime				Full Scale Testing of Escort Vessels	2015-10			"CN;#12"	57.2	ORS	"WP 7 ;#7"
+DNVGL	RP	1283	RP	Ship classification	Maritime				Cargo Vapour Recovery Systems	2015-10			"CN;#12"	61.1	ORS	"WP 6;#6"
+DNVGL	RP	1284	RP	Ship classification	Maritime				LNG Boil-off Re-Liquefaction Plants and Gas Combustion Units	2015-10			"CN;#12"	61.2	ORS	"WP 6;#6"
+DNVGL	RP	1285	RP	Ship classification	Maritime				Regasification Vessels	2015-10			"CN;#12"	61.3	ORS	"WP 6;#6"
+DNVGL	RP	1286	RP	Ship classification	Maritime				Guidance for the Environmental Class Notations CLEAN and CLEAN design	2015-10			"CN;#12"	62.1	ORS	"WP 6;#6"
+DNVGL	RP	1287	RP	Ship classification	Maritime				Allowable Thickness Diminution for Hull Structure	2015-10			"CN;#12"	72.1	ORS	"WP 2;#2"
+DNVGL	RP	1288	RP	Ship classification	Maritime				Assessment of Ships and Managers for the Acceptance of Extended Interval between Bottom Sureveys in Dry-Dock	2015-10			"CN;#12"	72.2	ORS	"WP 2;#2"
+DNVGL	RP	1289	RP	Ship classification	Maritime				Design and Classification of Roll on/ Roll off Ships	2015-10			"GL;#11"	1	ORS	"WP 7 ;#7"
+DNVGL	RP	1290	RP	Ship classification	Maritime				Safety and Quality Management	2015-10			"GL;#11"	7	ORS	"WP 2;#2"
+DNVGL	RP	1291	RP	Ship classification	Maritime				Advisory service - Condition Survey Programme	2015-10			"GL;#11"	9	ORS	"WP 2;#2"
+DNVGL	RP	1292	RP	Ship classification	Maritime				Ultrasonic Thickness Measurements of Ships classed with DNV	2015-10			"GL;#11"	10	ORS	"WP 2;#2"
+DNVGL	RP	1293	RP	Ship classification	Maritime				Erosion and Corrosion in Piping systems for Sea water	2015-10			"GL;#11"	15	ORS	"WP 5;#5"
+DNVGL	RP	1294	RP	Ship classification	Maritime				Delivery of Courses in Maritime education and training Institutions	2015-10			"GL;#11"	18		
+DNVGL	RP	1295	RP	Ship classification	Maritime				Qualification and Approval of Hybrid laser-arc welding in Shipbuilding	2015-10			"GL;#11"	19	ORS	"WP 5;#5"
+DNVGL	RP	1296	RP	Ship classification	Maritime				Corrosion protection of Ships (recommended practice)	2015-10			"GL;#11"	20	ORS	"WP 5;#5"
+DNVGL	RP	1297	RP	Ship classification	Maritime				Fishing Vessel - Safety Certificate	2015-10			"GL;#11"	21	FIS	"Statutory certification;#13"
+DNVGL	RP	1298	RP	Ship classification	Maritime				Lay-up of Vessels	2015-10			"GL;#11"	22	ORS	"WP 2;#2"
+DNVGL	RP	1299	RP	Ship classification	Maritime				Plan Approval Documentation Types - Definitions	2015-10			"RP;#8"	A201	ORS	"WP 4;#4"
+DNVGL	RP	1300	RP	Offshore classification	Maritime				Quality Survey Plan (QSP) for Offshore Class New-building Surveys	2015-12			"RP;#8"	A204	Offshore	"Offshore;#11"
+DNVGL	RP	1301	RP	Offshore classification	Maritime				Offshore Classification Projects - Testing and Commissioning	2015-12			"RP;#8"	A205	Offshore	"Offshore;#11"
+DNVGL	RP	1302	RP	Offshore classification	Maritime				Corrosion Protection of Floating Production and Storage Units	2015-12			"RP;#8"	B101	Offshore	"Offshore;#11"
+DNVGL	RP	1303	RP	Offshore classification	Maritime				Cathodic Protection Design	2015-12			"RP;#8"	B401	Offshore	"Offshore;#11"
+DNVGL	RP	1304	RP	Offshore classification	Maritime				Allowable thickness Diminution for Hull Structure of Offshore Ships	2015-12			"RP;#8"	C101	Offshore	"Offshore;#11"
+DNVGL	RP	1305	RP	Offshore classification	Maritime				Structural Design of Offshore Ships	2015-12			"RP;#8"	C102	Offshore	"Offshore;#11"
+DNVGL	RP	1306	RP	Offshore classification	Maritime				Column Stabilised Units	2015-12			"RP;#8"	C103	Offshore	"Offshore;#11"
+DNVGL	RP	1307	RP	Offshore classification	Maritime				Self-elevating units	2015-12			"RP;#8"	C104	Offshore	"Offshore;#11"
+DNVGL	RP	1308	RP	Offshore classification	Maritime				Buckling Strength of Plated Structures	2015-12			"RP;#8"	C201	Offshore	"Offshore;#11"
+DNVGL	RP	1309	RP		Maritime				Buckling Strength of Shells	2015-12			"RP;#8"	C202	Offshore	"Offshore;#11"
+DNVGL	RP	1310	RP		Maritime				Fatigue Strength Analysis of Offshore Steel Structures	2015-12			"RP;#8"	C203	Offshore	"Offshore;#11"
+DNVGL	RP	1311	RP	Offshore classification	Maritime				Design against Accidental Loads	2015-12			"RP;#8"	C204	Offshore	"Offshore;#11"
+DNVGL	RP	1312	RP		Maritime				Environmental Conditions and Environmental Loads	2015-12			"RP;#8"	C205	Offshore	"Offshore;#11"
+DNVGL	RP	1313	RP	Offshore classification	Maritime				Fatigue Methodology of Offshore Ships	2015-12			"RP;#8"	C206	Offshore	"Offshore;#11"
+DNVGL	RP	1314	RP		Maritime				Statistical Representation of Soil Data	2015-12			"RP;#8"	C207	Offshore	"Offshore;#11"
+DNVGL	RP	1315	RP		Maritime				Determination of Structural Capacity by Non-linear FE analysis Methods	2015-12			"RP;#8"	C208	Offshore	"Offshore;#11"
+DNVGL	RP	1316	RP	Offshore classification	Maritime				Design, Fabrication, Operation and Qualification of Bonded Repair of Steel Structures	2015-12			"RP;#8"	C301	Offshore	"Offshore;#11"
+DNVGL	RP	1317	RP	Offshore classification	Maritime				Risk Based Corrosion Management	2015-12			"RP;#8"	C302	Offshore	"Offshore;#11"
+DNVGL	RP	1318	RP		Maritime				Structural Analysis of Piping Systems	2015-12			"RP;#8"	D101	Offshore	"Offshore;#11"
+DNVGL	RP	1319	RP	Ship classification	Maritime				Failure Mode and Effect Analysis (FMEA) of Redundant Systems	2015-12			"RP;#8"	D102	Offshore	"Offshore;#11"
+DNVGL	RP	1320	RP		Maritime				D201: Integrated Software Dependent Systems	2015-12			"RP;#8"	D201	Offshore	"Offshore;#11"
+DNVGL	RP	1321	RP		Maritime				E101: Recertification of Well Control Equipment for the Norwegian Continental Shelf	2015-12			"RP;#8"	E101	Offshore	"Offshore;#11"
+DNVGL	RP	1322	RP		Maritime				E102: Recertification of Blowout Preventers and Well Control Equipment for the US Outer Continental Shelf	2015-12			"RP;#8"	E102	Offshore	"Offshore;#11"
+DNVGL	RP	1323	RP		Maritime				E301: Design and Installation of Fluke Anchors in Clay	2015-12			"RP;#8"	E301	Offshore	"Offshore;#11"
+DNVGL	RP	1324	RP		Maritime				E302: Design and Installation of Drag-in-plate Anchors in Clay	2015-12			"RP;#8"	E302	Offshore	"Offshore;#11"
+DNVGL	RP	1325	RP		Maritime				Geotechnical Design and Installation of Suction Anchors in Clay	2015-12			"RP;#8"	E303	Offshore	"Offshore;#11"
+DNVGL	RP	1326	RP		Maritime				Damage Assessment of Fibre Ropes for Offshore Mooring	2015-12			"RP;#8"	E304	Offshore	"Offshore;#11"
+DNVGL	RP	1327	RP	Offshore classification	Maritime				Dynamic Positioning Vessel Design Philosophy Guidelines	2015-12			"RP;#8"	E306	Offshore	"Offshore;#11"
+DNVGL	RP	1328	RP	Offshore classification	Maritime				Dynamic Positioning Systems - Operation Guidance	2015-12			"RP;#8"	E307	Offshore	"Offshore;#11"
+DNVGL	RP	1329	RP	Ship classification	Maritime				Survey of Diving Systems	2016-01			"RP;#8"	E401	ORS	"WP 8;#8"
+DNVGL	RP	1330	RP	Ship classification	Maritime				Naval Rescue Submersibles	2016-02			"RP;#8"	E402	ORS	"WP 8;#8"
+DNVGL	RP	1331	RP	Ship classification	Maritime				Hyperbaric Evacuation Systems	2016-02			"RP;#8"	E403	ORS	"WP 8;#8"
+DNVGL	RP	1332	RP		Maritime				F101: Corroded Pipelines	2016-01			"RP;#8"	F101		
+DNVGL	RP	1333	RP		Maritime				F102: Pipeline Field Joint Coating and Field Repair of Linepipe Coating	2016-01			"RP;#8"	F102		
+DNVGL	RP	1334	RP		Maritime				F103: Cathodic Protection of Submarine Pipelines by Galvanic Anodes	2016-01			"RP;#8"	F103		
+DNVGL	RP	1335	RP		Maritime				Free Spanning Pipelines	2016-01			"RP;#8"	F105		
+DNVGL	RP	1336	RP		Maritime				Factory Applied Pipeline Coatings for Corrosion Control	2016-01			"RP;#8"	F106		
+DNVGL	RP	1337	RP		Maritime				Risk Assessment of Pipeline Protection	2016-01			"RP;#8"	F107		
+DNVGL	RP	1338	RP		Maritime				Fracture Control for Pipeline Installation Methods Introducing Cyclic Plastic Strain	2016-01			"RP;#8"	F108		
+DNVGL	RP	1339	RP		Maritime				On-Bottom Stability Design of Submarine Pipelines	2016-01			"RP;#8"	F109		
+DNVGL	RP	1340	RP		Maritime				Global Buckling of Submarine Pipelines - Structural Design due to High Temperature/High Pressure	2016-01			"RP;#8"	F110		
+DNVGL	RP	1341	RP		Maritime				Interference Between Trawl Gear and Pipelines	2016-01			"RP;#8"	F111		
+DNVGL	RP	1342	RP		Maritime				Design of Duplex Stainless Steel Subsea Equipment exposed to Cathodic Protection	2016-01			"RP;#8"	F112		
+DNVGL	RP	1343	RP		Maritime				Pipeline Subsea Repair	2016-01			"RP;#8"	F113		
+DNVGL	RP	1344	RP		Maritime				Integrity Management of Submarine Pipeline Systems	2016-01			"RP;#8"	F116		
+DNVGL	RP	1345	RP		Maritime				Pipe Girth Weld AUT System Qualification and Project Specific Procedure Validation	2016-01			"RP;#8"	F118		
+DNVGL	RP	1346	RP		Maritime				Design of Titanium Risers	2015-11			"RP;#8"	F201	Offshore	"Offshore;#11"
+DNVGL	RP	1347	RP		Maritime				Composite Risers	2015-11			"RP;#8"	F202	Offshore	"Offshore;#11"
+DNVGL	RP	1348	RP		Maritime				Riser Interference	2015-11			"RP;#8"	F203	Offshore	"Offshore;#11"
+DNVGL	RP	1349	RP		Maritime				Riser Fatigue	2015-11			"RP;#8"	F204	Offshore	"Offshore;#11"
+DNVGL	RP	1350	RP		Maritime				Global Performance Analysis of Deepwater Floating Structures	2015-11			"RP;#8"	F205	Offshore	"Offshore;#11"
+DNVGL	RP	1351	RP		Maritime				Riser Integrity Management	2015-11			"RP;#8"	F206	Offshore	"Offshore;#11"
+DNVGL	RP	1352	RP		Maritime				Subsea Separator Structural Design	2015-11			"RP;#8"	F301	Offshore	"Offshore;#11"
+DNVGL	RP	1353	RP		Maritime				Selection and Use of Subsea Leak Detection Systems	2015-11			"RP;#8"	F302	Offshore	"Offshore;#11"
+DNVGL	RP	1354	RP		Maritime				Electrical Power Cables in Subsea Applications	2015-11			"RP;#8"	F401	Offshore	"Offshore;#11"
+DNVGL	RP	1355	RP		Maritime				Risk Based Inspection of Offshore Topsides Static Mechanical Equipment	2015-11			"RP;#8"	G101	Offshore	"Offshore;#11"
+DNVGL	RP	1356	RP		Maritime				Non-intrusive Inspection	2015-11			"RP;#8"	G103	Offshore	"Offshore;#11"
+DNVGL	RP	1357	RP		Maritime				H101: Risk Management in Marine and Sub-sea Operations	2015-11			"RP;#8"	H101	Offshore	"Offshore;#11"
+DNVGL	RP	1358	RP		Maritime				H102: Marine operations during Removal of Offshore Installations	2015-11			"RP;#8"	H102	Offshore	"Offshore;#11"
+DNVGL	RP	1359	RP		Maritime				H103: Modelling and Analysis of Marine Operations	2015-11			"RP;#8"	H103	Offshore	"Offshore;#11"
+DNVGL	RP	1360	RP		Maritime				Ballast, Stability, and Watertight Integrity - Planning and Operating Guidance	2015-11			"RP;#8"	H104	Offshore	"Offshore;#11"
+DNVGL	RP	1361	RP		Maritime				Recommended Practice for use of remote sensing for wind energy assessments	2016-01			"RP;#8"	J101		
+DNVGL	RP	1362	RP		Maritime				Qualification Procedures for CO2 Capture Technology	2016-01			"RP;#8"	J201		
+DNVGL	RP	1363	RP		Maritime				Design and Operation of CO2 Pipelines	2016-01			"RP;#8"	J202		
+DNVGL	RP	1364	RP		Maritime				Geological Storage of Carbon Dioxide	2016-01			"RP;#8"	J203		
+DNVGL	RP	1365	RP		Maritime				Safety and Reliability of Subsea Systems	2016-01			"RP;#8"	O401	Offshore	"Offshore;#11"
+DNVGL	RP	1366	RP		Maritime				Erosive Wear in Piping Systems	2016-01			"RP;#8"	O501	Offshore	"Offshore;#11"
+DNVGL	RP	1367	RP		Maritime				Risk Management of Shale Gas Developments and Operations	2016-01			"RP;#8"	U301		
+DNVGL	ST	1368	ST	Ship classification	Maritime				Certification services	2016-02			"STC;#10"	1	ORS	"WP 6;#6"
+DNVGL	ST	1369	ST	Ship classification	Maritime				Certification of Materials and Components	2016-02			"STC;#10"	1.1	ORS	"WP 3;#3"
+DNVGL	ST	1370	ST	Ship classification	Maritime				Type Approval	2016-02			"STC;#10"	1.2	ORS	"WP 6;#6"
+DNVGL	ST	1371	ST	Ship classification	Maritime				Approval schemes	2016-02			"STC;#10"	2	ORS	
+DNVGL	ST	1372	ST	Ship classification	Maritime				Environmental Test Specification for Instrumentation and Automation Equipment	2016-02			"STC;#10"	2.4	ORS	"WP 6;#6"
+DNVGL	ST	1373	ST	Ship classification	Maritime				Offshore Containers.  Annex1 Lifting Sets for Offsh. Cont.  Annex2 Offshore Containers	2016-02			"STC;#10"	2.7-1		
+DNVGL	ST	1374	ST	Ship classification	Maritime				Offshore Service Containers	2016-02			"STC;#10"	2.7-2		
+DNVGL	ST	1375	ST	Ship classification	Maritime				Portable Offshore Units	2016-02			"STC;#10"	2.7-3		
+DNVGL	ST	1376	ST	Ship classification	Maritime				Freight Containers	2016-02			"STC;#10"	2.7-4		
+DNVGL	ST	1377	ST	Ship classification	Maritime				Diesel Engine Driven Power Plants — Certification, Testing and Inspections	2016-02			"STC;#10"	2.10	ORS	"WP 6;#6"
+DNVGL	ST	1378	ST	Ship classification	Maritime				Certification of Gas Burning Internal Combustion Engine Installations	2016-02			"STC;#10"	2.11	ORS	"WP 6;#6"
+DNVGL	ST	1379	ST	Ship classification	Maritime				Type Approval of Marine Equipment on behalf of Maritime- and Coastguard Safety Agency (MCA)	2016-02			"STC;#10"	2.12	ORS	"WP 6;#6"
+DNVGL	ST	1380	ST	Ship classification	Maritime				Standard for Certification of Maritime Simulator Systems	2016-02			"STC;#10"	2.14		
+DNVGL	ST	1381	ST	Ship classification	Maritime				NOx emissions of Diesel Engines according to MARPOL 73/78 Annex VI and the NOx Technical code	2016-02			"STC;#10"	2.15	ORS	"WP 6;#6"
+DNVGL	ST	1382	ST	Ship classification	Maritime				Specifications for Redundancy in Position Keeping Ability	2016-02			"STC;#10"	2.16	ORS	"WP 6;#6"
+DNVGL	ST	1383	ST	Ship classification	Maritime				Certification of Portable Fire Extinguishers for the Norwegian Market	2016-02			"STC;#10"	2.19	ORS	"WP 6;#6"
+DNVGL	ST	1384	ST	Ship classification	Maritime				Lifeboats and Rescue Boats	2016-02			"STC;#10"	2.20	ORS	"WP 8;#8"
+DNVGL	ST	1385	ST	Ship classification	Maritime				Craft	2016-02			"STC;#10"	2.21	ORS	"WP 8;#8"
+DNVGL	ST	1386	ST	Ship classification	Maritime				Lifting Appliances	2016-02			"STC;#10"	2.22	ORS	"WP 6;#6"
+DNVGL	ST	1387	ST	Ship classification	Maritime				Container Securing Devices	2016-02			"STC;#10"	2.23	ORS	"WP 7 ;#7"
+DNVGL	ST	1388	ST	Ship classification	Maritime				Hardware in the Loop Testing (HIL)	2016-02			"STC;#10"	2.24	ORS	"WP 6;#6"
+DNVGL	ST	1389	ST	Ship classification	Maritime				Electrical Shore Connections / Cold Ironing	2016-02			"STC;#10"	2.25	ORS	"WP 6;#6"
+DNVGL	ST	1390	ST	Ship classification	Maritime				Competence related services	2016-02			"STC;#10"	3		
+DNVGL	ST	1391	ST	Ship classification	Maritime				Competence Management Systems	2016-02			"STC;#10"	3.101		
+DNVGL	ST	1392	ST	Ship classification	Maritime				Learning Programmes	2016-02			"STC;#10"	3.201		
+DNVGL	ST	1393	ST	Ship classification	Maritime				Competence of Ship’s superintendents	2016-02			"STC;#10"	3.301		
+DNVGL	ST	1394	ST	Ship classification	Maritime				Competence of Shipboard LNG Cargo Operators	2016-02			"STC;#10"	3.302		
+DNVGL	ST	1395	ST	Ship classification	Maritime				STCW Basic Safety for Seafarers	2016-02			"STC;#10"	3.303		
+DNVGL	ST	1396	ST	Ship classification	Maritime				Competence of Ship's Electrical Officers and Engineers	2016-02			"STC;#10"	3.304		
+DNVGL	ST	1397	ST	Ship classification	Maritime				Competence of Shore-side Personnel handling dangerous goods	2016-02			"STC;#10"	3.305		
+DNVGL	ST	1398	ST	Ship classification	Maritime				Competence of Ship's Officers for Hull Inspections	2016-02			"STC;#10"	3.306		
+DNVGL	ST	1399	ST	Ship classification	Maritime				Shiphandling competence requirements for Berthing and Unberthing Large Vessels	2016-02			"STC;#10"	3.307		
+DNVGL	ST	1400	ST	Ship classification	Maritime				Competence of Tender Operators	2016-02			"STC;#10"	3.310		
+DNVGL	ST	1401	ST	Ship classification	Maritime				Competence of Officers for Navigation in Ice	2016-02			"STC;#10"	3.312		
+DNVGL	ST	1402	ST	Ship classification	Maritime				Competence of Cargo Operator - Crude oil Tankers	2016-02			"STC;#10"	3.317		
+DNVGL	ST	1403	ST	Ship classification	Maritime				Competence of Cargo Operator - Product Tankers	2016-02			"STC;#10"	3.318		
+DNVGL	ST	1404	ST	Ship classification	Maritime				Competence of Cargo Operator - Chemical Tankers	2016-02			"STC;#10"	3.319		
+DNVGL	ST	1405	ST	Ship classification	Maritime				Competence of Fast Rescue Craft Operators	2016-02			"STC;#10"	3.320		
+DNVGL	ST	1406	ST	Ship classification	Maritime				Competence of Lifeboat Coxswains	2016-02			"STC;#10"	3.321		
+DNVGL	ST	1407	ST	Ship classification	Maritime				Competence of Dynamic Positioning Operators - Station Keeping	2016-02			"STC;#10"	3.322		
+DNVGL	ST	1408	ST	Ship classification	Maritime				Competence of Maritime Teaching Professionals - Course Designers, Teachers, Lecturers, Train­ers, Instructors, Assessors	2016-02			"STC;#10"	3.323		
+DNVGL	ST	1409	ST	Ship classification	Maritime				Competence of Maritime Simulator Instructors	2016-02			"STC;#10"	3.324		
+DNVGL	ST	1410	ST	Ship classification	Maritime				Maritime Training Providers	2016-02			"STC;#10"	3.403		
+DNVGL	ST	1411	ST	Ship classification	Maritime				Crew Manning Offices Private Recruitment and Placement Services	2016-02			"STC;#10"	3.404		
+DNVGL	ST	1412	ST	Ship classification	Maritime				Pilot Organisations	2016-02			"STC;#10"	3.405		
+DNVGL	ST	1413	ST	Ship classification	Maritime				Test Centre for Certification of Personnel	2016-02			"STC;#10"	3.406		
+DNVGL	ST	1414	ST	Ship classification	Maritime				Environmental Services	2016-02			"STC;#10"	4		
+DNVGL	ST	1415	ST	Ship classification	Maritime				Management systems for safe and environmentally sound Ship Recycling Facilities	2016-02			"STC;#10"	4.1		
+DNVGL	ST	1416	ST	Ship classification	Maritime				Approval Programmes – Products, Manufacturers, Service Suppliers	2016-02			"STC;#10"	2.9	ORS	"WP 6;#6"
+DNVGL	ST	1417	ST	Ship classification	Maritime			Type approval programmes	Type approval programmes: Welding Consumables	2016-02			"TAP;#24"	1-401.1	ORS	"WP 5;#5"
+DNVGL	ST	1418	ST	Ship classification	Maritime			Type approval programmes	Fibre Reinforced Thermosetting Plastic Pipes	2016-02			"TAP;#24"	1-501.1	ORS	"WP 5;#5"
+DNVGL	ST	1419	ST	Ship classification	Maritime			Type approval programmes	Thermoplastic Pipes	2016-02			"TAP;#24"	1-501.2	ORS	"WP 5;#5"
+DNVGL	ST	1420	ST	Ship classification	Maritime			Type approval programmes	Synthetic Rudder Bearing Bushing Materials	2016-02			"TAP;#24"	1-501.5	ORS	"WP 5;#5"
+DNVGL	ST	1421	ST	Ship classification	Maritime			Type approval programmes	Glass Fibre Reinforcements	2016-02			"TAP;#24"	1-501.8	ORS	"WP 5;#5"
+DNVGL	ST	1422	ST	Ship classification	Maritime			Type approval programmes	Polyester Resin, Vinylester Resin, Gelcoat and Topcoat	2016-02			"TAP;#24"	1-501.9	ORS	"WP 5;#5"
+DNVGL	ST	1423	ST	Ship classification	Maritime			Type approval programmes	Sandwich Core Materials	2016-02			"TAP;#24"	1-501.10	ORS	"WP 5;#5"
+DNVGL	ST	1424	ST	Ship classification	Maritime			Type approval programmes	Sandwich Adhesives	2016-02			"TAP;#24"	1-501.11	ORS	"WP 5;#5"
+DNVGL	ST	1425	ST	Ship classification	Maritime			Type approval programmes	Adhesives	2016-02			"TAP;#24"	1-501.12	ORS	"WP 5;#5"
+DNVGL	ST	1426	ST	Ship classification	Maritime			Type approval programmes	Epoxy Systems	2016-02			"TAP;#24"	1-501.13	ORS	"WP 5;#5"
+DNVGL	ST	1427	ST	Ship classification	Maritime			Type approval programmes	Aramid Fibre Reinforcements	2016-02			"TAP;#24"	1-501.15	ORS	"WP 5;#5"
+DNVGL	ST	1428	ST	Ship classification	Maritime			Type approval programmes	Composite Drive Shafts and Flexible Couplings	2016-02			"TAP;#24"	1-501.16	ORS	"WP 5;#5"
+DNVGL	ST	1429	ST	Ship classification	Maritime			Type approval programmes	Side Scuttles and Windows	2016-02			"TAP;#24"	1-501.17	ORS	"WP 5;#5"
+DNVGL	ST	1430	ST	Ship classification	Maritime			Type approval programmes	Pourable Compound for Rope Socketing	2016-02			"TAP;#24"	1-501.18	ORS	"WP 5;#5"
+DNVGL	ST	1431	ST	Ship classification	Maritime			Type approval programmes	Carbon Fibre Reinforcements	2016-02			"TAP;#24"	1-501.19	ORS	"WP 5;#5"
+DNVGL	ST	1432	ST	Ship classification	Maritime			Type approval programmes	Elastomer Core Materials for Use in Sandwich Plate System (SPS) or Similar	2016-02			"TAP;#24"	1-501.20	ORS	"WP 5;#5"
+DNVGL	ST	1433	ST	Ship classification	Maritime			Type approval programmes	Plywood	2016-02			"TAP;#24"	1-503.1	ORS	"WP 5;#5"
+DNVGL	ST	1434	ST	Ship classification	Maritime			Type approval programmes	Hardwood for Tank Supports	2016-02			"TAP;#24"	1-503.2	ORS	"WP 5;#5"
+DNVGL	ST	1435	ST	Ship classification	Maritime			Type approval programmes	Synthetic Fibre Ropes for Towing, Mooring and Anchoring of Ships and High Speed and Light Craft	2016-02			"TAP;#24"	1-504.1	ORS	"WP 5;#5"
+DNVGL	ST	1436	ST	Ship classification	Maritime			Type approval programmes	Fastening Devices for Sacrificial Anodes	2016-02			"TAP;#24"	1-601.1	ORS	"WP 5;#5"
+DNVGL	ST	1437	ST	Ship classification	Maritime			Type approval programmes	Welding Consumables	2016-02			"TAP;#24"	1-601.2	ORS	"WP 5;#5"
+DNVGL	ST	1438	ST	Ship classification	Maritime			Type approval programmes	Fibre Reinforced Thermosetting Plastic Pipes	2016-02			"TAP;#24"	1-602.1	ORS	"WP 5;#5"
+DNVGL	ST	1439	ST	Ship classification	Maritime			Type approval programmes	Thermoplastic Pipes	2016-02			"TAP;#24"	1-602.2	ORS	"WP 5;#5"
+DNVGL	ST	1440	ST	Ship classification	Maritime			Type approval programmes	Synthetic Rudder Bearing Bushing Materials	2016-02			"TAP;#24"	1-602.3	ORS	"WP 5;#5"
+DNVGL	ST	1441	ST	Ship classification	Maritime			Type approval programmes	Glass Fibre Reinforcements	2016-02			"TAP;#24"	1-602.4	ORS	"WP 5;#5"
+DNVGL	ST	1442	ST	Ship classification	Maritime			Type approval programmes	Polyester Resin, Vinylester Resin, Gelcoat and Topcoat	2016-02			"TAP;#24"	3-449.50-1	ORS	"WP 6;#6"
+DNVGL	ST	1443	ST	Ship classification	Maritime			Type approval programmes	Sandwich Core Materials	2016-02			"TAP;#24"	4-702.50-1	ORS	"WP 6;#6"
+DNVGL	ST	1444	ST	Ship classification	Maritime			Type approval programmes	Sandwich Adhesives	2016-02			"TAP;#24"	4-703.10-1	ORS	"WP 6;#6"
+DNVGL	ST	1445	ST	Ship classification	Maritime			Type approval programmes	Adhesives	2016-02			"TAP;#24"	4-714.30-1	ORS	"WP 6;#6"
+DNVGL	ST	1446	ST	Ship classification	Maritime			Type approval programmes	Epoxy Systems	2016-02			"TAP;#24"	4-714.30-2	ORS	"WP 6;#6"
+DNVGL	ST	1447	ST	Ship classification	Maritime			Type approval programmes	Aramid Fibre Reinforcements	2016-02			"TAP;#24"	4-714.60-1	ORS	"WP 6;#6"
+DNVGL	ST	1448	ST	Ship classification	Maritime			Type approval programmes	Composite Drive Shafts and Flexible Couplings	2016-02			"TAP;#24"	4-716.00-1	ORS	"WP 6;#6"
+DNVGL	ST	1449	ST	Ship classification	Maritime			Type approval programmes	Side Scuttles and Windows	2016-02			"TAP;#24"	4-732.10-1	ORS	"WP 6;#6"
+DNVGL	ST	1450	ST	Ship classification	Maritime			Type approval programmes	Pourable Compound for Rope Socketing	2016-02			"TAP;#24"	5-741.10-1	ORS	"WP 6;#6"
+DNVGL	ST	1451	ST	Ship classification	Maritime			Type approval programmes	Carbon Fibre Reinforcements	2016-02			"TAP;#24"	5-778.93	ORS	"WP 6;#6"
+DNVGL	ST	1452	ST	Ship classification	Maritime			Type approval programmes	Elastomer Core Materials for Use in Sandwich Plate System (SPS) or Similar	2016-02			"TAP;#24"	5-779.70-1	ORS	"WP 6;#6"
+DNVGL	ST	1453	ST	Ship classification	Maritime			Type approval programmes	Plywood	2016-02			"TAP;#24"	5-791.70	ORS	"WP 6;#6"
+DNVGL	ST	1454	ST	Ship classification	Maritime			Type approval programmes	Hardwood for Tank Supports	2016-02			"TAP;#24"	5-791.80	ORS	"WP 6;#6"
+DNVGL	ST	1455	ST	Ship classification	Maritime			Type approval programmes	Synthetic Fibre Ropes for Towing, Mooring and Anchoring of Ships and High Speed and Light Craft	2016-02			"TAP;#24"	5-792.20	ORS	"WP 6;#6"
+DNVGL	ST	1456	ST	Ship classification	Maritime			Type approval programmes	Fastening Devices for Sacrificial Anodes	2016-02			"TAP;#24"	5-793.10-1	ORS	"WP 6;#6"
+DNVGL	ST	1457	ST	Ship classification	Maritime			Type approval programmes	Sacrificial Anode Materials	2016-02			"TAP;#24"	5-794.40	ORS	"WP 6;#6"
+DNVGL	ST	1458	ST	Ship classification	Maritime			Type approval programmes	Protective Coating Systems	2016-02			"TAP;#24"	6-800	ORS	"WP 6;#6"
+DNVGL	ST	1459	ST	Ship classification	Maritime			Type approval programmes	Shop Primers for Corrosion Protection of Steel Plates and Sections	2016-02			"TAP;#24"	7-473.11	ORS	"WP 6;#6"
+DNVGL	ST	1460	ST	Ship classification	Maritime			Type approval programmes	Anti–Fouling Systems	2016-02			"TAP;#24"	7-473.12	ORS	"WP 6;#6"
+DNVGL	ST	1461	ST	Ship classification	Maritime			Type approval programmes	Protective Coating Systems - Cargo Oil Tanks	2016-02			"TAP;#24"	7-473.13	ORS	"WP 6;#6"
+DNVGL	ST	1462	ST	Ship classification	Maritime			Type approval programmes	Passenger and Crew Seats	2016-02			"TAP;#24"	7-473.19	ORS	"WP 6;#6"
+DNVGL	ST	1463	ST	Ship classification	Maritime			Type approval programmes	Flexible Mounts used for Propulsion or Auxiliary Machinery	2016-02			"TAP;#24"	7-473.30/31	ORS	"WP 6;#6"
+DNVGL	ST	1464	ST	Ship classification	Maritime			Type approval programmes	Steering Gear	2016-02			"TAP;#24"	7-861.80	ORS	"WP 6;#6"
+DNVGL	ST	1465	ST	Ship classification	Maritime			Type approval programmes	Elastic (torsional) Couplings used for Torque Transmission in Propulsion or Auxiliary Plants	2016-02			"TAP;#24"	7-866.30	ORS	"WP 6;#6"
+DNVGL	ST	1466	ST	Ship classification	Maritime			Type approval programmes	Couplings used for Torque Transmission in Propulsion or Auxiliary Plants	2016-02			"TAP;#24"	7-890	ORS	"WP 6;#6"
+DNVGL	ST	1467	ST	Ship classification	Maritime			Type approval programmes	Clutches used for Torque Transmission in Propulsion or Auxiliary Plants	2016-02			"TAP;#24"	7-891.40	ORS	"WP 6;#6"
+DNVGL	ST	1468	ST	Ship classification	Maritime			Type approval programmes	Gear Transmission used in Propulsion or Auxiliary Plants	2016-02			"TAP;#24"	8-471.19-1	ORS	"WP 6;#6"
+DNVGL	ST	1469	ST	Ship classification	Maritime			Type approval programmes	Gas Turbines	2016-02			"TAP;#24"	8-899.10-1	ORS	"WP 6;#6"
+DNVGL	ST	1470	ST	Ship classification	Maritime			Type approval programmes	Boilers	2016-02			"TAP;#24"	10-706.70-1	ORS	"WP 6;#6"
+DNVGL	ST	1471	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Hydraulic Cylinders	2016-02			"TAP;#24"	760.30/40 MED A.1/2.8	ORS	"WP 6;#6"
+DNVGL	ST	1472	ST	Ship classification	Maritime			Type approval programmes	Spark Arrestors	2016-02			"TAP;#24"	771.60	ORS	"WP 6;#6"
+DNVGL	ST	1473	ST	Ship classification	Maritime			Type approval programmes	Flexible Hoses of Non–Metallic Material	2016-02			"TAP;#24"	771.91	ORS	"WP 6;#6"
+DNVGL	ST	1474	ST	Ship classification	Maritime			Type approval programmes	Flexible Hoses of Metallic Material	2016-02			"TAP;#24"	775.60	ORS	"WP 6;#6"
+DNVGL	ST	1475	ST	Ship classification	Maritime			Type approval programmes	Pipe Couplings	2016-02			"TAP;#24"	785.70	ORS	"WP 6;#6"
+DNVGL	ST	1476	ST	Ship classification	Maritime			Type approval programmes	Air Vent Heads	2016-02			"TAP;#24"	785.80	ORS	"WP 6;#6"
+DNVGL	ST	1477	ST	Ship classification	Maritime			Type approval programmes	Valves	2016-02			"TAP;#24"	470	ORS	"WP 6;#6"
+DNVGL	ST	1478	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Electric Equipment	2016-02			"TAP;#24"	MED A.1/3	ORS	"WP 6;#6"
+DNVGL	ST	1479	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Alarm Central Unit – Control, Indicating and Power Supply Equipment	2016-02			"TAP;#24"	842.10 - MED A.1/ 4.34-4.38	ORS	"WP 6;#6"
+DNVGL	ST	1480	ST	Ship classification	Maritime			Type approval programmes	Fire Detectors – Heat and Smoke Detectors	2016-02			"TAP;#24"	842.20	ORS	"WP 6;#6"
+DNVGL	ST	1481	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Alarm Manual Call Points	2016-02			"TAP;#24"	842.40 - MED A.1/ 4.37	ORS	"WP 6;#6"
+DNVGL	ST	1482	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Alarm Devices - Sounders	2016-02			"TAP;#24"	842.50 - MED A.1/ 4.39	ORS	"WP 6;#6"
+DNVGL	ST	1483	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Gas Detector System and Gas Detectors	2016-02			"TAP;#24"	843.20 - MED A.1/ 4.6	ORS	"WP 6;#6"
+DNVGL	ST	1484	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Steering Gear Control System	2016-02			"TAP;#24"	843.30 - MED A.1/ 4.7	ORS	"WP 6;#6"
+DNVGL	ST	1485	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Engineer's Alarm and Watch Call System	2016-02			"TAP;#24"	844.10 - MED A.1/ 4.3	ORS	"WP 6;#6"
+DNVGL	ST	1486	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Instrumentation And Automation Equipment October 2009	2016-02			"TAP;#24"	844.20 - MED A.1/ 4.1	ORS	"WP 6;#6"
+DNVGL	ST	1487	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Flame Detector October 2009	2016-02			"TAP;#24"	844.40 - MED A.1/4.20-4.21-4.22-4.9	ORS	"WP 6;#6"
+DNVGL	ST	1488	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Cable and Pipe Penetrations – Fire Safety	2016-02			"TAP;#24"	844.50 - MED A.1/ 4.2	ORS	"WP 6;#6"
+DNVGL	ST	1489	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Computer based Diesel Engine performance Analyser and Performance monitoring systems	2016-02			"TAP;#24"	844.60 - MED A.1/ 4.33	ORS	"WP 6;#6"
+DNVGL	ST	1490	ST	Ship classification	Maritime			Type approval programmes	Planned Maintenance System (PMS)	2016-02			"TAP;#24"	844.70	ORS	"WP 6;#6"
+DNVGL	ST	1491	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	On-board NOx Monitoring and Recording Devices	2016-02			"TAP;#24"	844.80 - MED A.1/ 4.16	ORS	"WP 6;#6"
+DNVGL	ST	1492	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	5PPM Bilge Water Separators and 5PPM Bilge Alarm	2016-02			"TAP;#24"	844.81 - MED A.1/ 4.40	ORS	"WP 6;#6"
+DNVGL	ST	1493	ST	Ship classification	Maritime			Type approval programmes	Ballast water management system	2016-02			"TAP;#24"	845.20	ORS	"WP 6;#6"
+DNVGL	ST	1494	ST	Ship classification	Maritime			Type approval programmes	Fuel Oil Separators	2016-02			"TAP;#24"	845.50	ORS	"WP 6;#6"
+DNVGL	ST	1495	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Crude Oil Washing (COW) - Machines	2016-02			"TAP;#24"	846.40 - MED A.1/ 4.14	ORS	"WP 6;#6"
+DNVGL	ST	1496	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Continuous drip Fuel sampler	2016-02			"TAP;#24"	846.50 - MED A.1/4.14-15	ORS	"WP 6;#6"
+DNVGL	ST	1497	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Safety	2016-02			"TAP;#24"	846.60 - MED A.1/ 4.11	ORS	"WP 6;#6"
+DNVGL	ST	1498	ST	Ship classification	Maritime			Type approval programmes	Fire Safety - according to the Marine Equipment Directive	2016-02			"TAP;#24"	846.80	ORS	"WP 6;#6"
+DNVGL	ST	1499	ST	Ship classification	Maritime			Type approval programmes	Radar Equipment	2016-02			"TAP;#24"	847.10	ORS	"WP 6;#6"
+DNVGL	ST	1500	ST	Ship classification	Maritime			Type approval programmes	Wave Radar Systems	2016-02			"TAP;#24"	847.40	ORS	"WP 6;#6"
+DNVGL	ST	1501	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Radar and ARPA Equipment for High Speed Craft	2016-02			"TAP;#24"	847.50 - MED A.1/ 4.30	ORS	"WP 6;#6"
+DNVGL	ST	1502	ST	Ship classification	Maritime			Type approval programmes	Radar Reflector	2016-02			"TAP;#24"	847.92	ORS	"WP 6;#6"
+DNVGL	ST	1503	ST	Ship classification	Maritime			Type approval programmes	Echo Sounding Equipment	2016-02			"TAP;#24"	849.61	ORS	"WP 6;#6"
+DNVGL	ST	1504	ST	Ship classification	Maritime			Type approval programmes for marine equipment directive	Speed and Distance Measuring Equipment (SDME)	2016-02			"TAP;#24"	849.80 - MED A.1/ 4.29	ORS	"WP 6;#6"
+DNVGL	ST	1505	ST	Ship classification	Maritime			Type approval programmes	Marine Gyro Compass	2016-02			"TAP;#24"	849.82	ORS	"WP 6;#6"
+DNVGL	ST	1742	ST	Ship classification	Maritime			Approval of manufacturers	Magnetic Compasses	2016-02			"AoM;#25"	301A	ORS	"WP 5;#5"
+DNVGL	ST	1743	ST	Ship classification	Maritime			Approval of manufacturers	Indicators for Rudder Angle, Rate of Turn, Propeller Shaft Revolution and Propeller Pitch	2016-02			"AoM;#25"	301B	ORS	"WP 5;#5"
+DNVGL	ST	1744	ST	Ship classification	Maritime			Approval of manufacturers	Marine Electromagnetic Compass	2016-02			"AoM;#25"	302A	ORS	"WP 5;#5"
+DNVGL	ST	1745	ST	Ship classification	Maritime			Approval of manufacturers	Track Control	2016-02			"AoM;#25"	302B	ORS	"WP 5;#5"
+DNVGL	ST	1746	ST	Ship classification	Maritime			Approval of manufacturers	Grounding Avoidance System (GAS)	2016-02			"AoM;#25"	303	ORS	"WP 5;#5"
+DNVGL	ST	1747	ST	Ship classification	Maritime			Approval of manufacturers	Heading Control System (HCS)	2016-02			"AoM;#25"	304	ORS	"WP 5;#5"
+DNVGL	ST	1748	ST	Ship classification	Maritime			Approval of manufacturers	Heading Control System (HCS) for High Speed Craft	2016-02			"AoM;#25"	305	ORS	"WP 5;#5"
+DNVGL	ST	1749	ST	Ship classification	Maritime			Approval of manufacturers	Navigation Lights and Controllers	2016-02			"AoM;#25"	306	ORS	"WP 5;#5"
+DNVGL	ST	1750	ST	Ship classification	Maritime			Approval of manufacturers	Sound Reception Systems	2016-02			"AoM;#25"	307	ORS	"WP 5;#5"
+DNVGL	ST	1751	ST	Ship classification	Maritime			Approval of manufacturers	Global Positioning Systems (GPS)	2016-02			"AoM;#25"	308	ORS	"WP 5;#5"
+DNVGL	ST	1752	ST	Ship classification	Maritime			Approval of manufacturers	Shipborne DGPS and DGLONASS Maritime Radio Beacon Equipment	2016-02			"AoM;#25"	309	ORS	"WP 5;#5"
+DNVGL	ST	1753	ST	Ship classification	Maritime			Approval of manufacturers	Loran–C	2016-02			"AoM;#25"	310	ORS	"WP 5;#5"
+DNVGL	ST	1754	ST	Ship classification	Maritime			Approval of manufacturers	Ship-borne combined DGPS / Dglonass Maritime Radio Beacon Equipment	2016-02			"AoM;#25"	311	ORS	"WP 5;#5"
+DNVGL	ST	1755	ST	Ship classification	Maritime			Approval of manufacturers	Window Wipers	2016-02			"AoM;#25"	312	ORS	"WP 5;#5"
+DNVGL	ST	1756	ST	Ship classification	Maritime			Approval of manufacturers	Weather Surveillance System	2016-02			"AoM;#25"	313	Offshore	"Offshore;#11"
+DNVGL	ST	1757	ST	Ship classification	Maritime			Approval of manufacturers	Electronic Chart Display and Information Systems (ECDIS)	2016-02			"AoM;#25"	316	Offshore	"Offshore;#11"
+DNVGL	ST	1758	ST	Ship classification	Maritime			Approval of manufacturers	Routing Decision Support Systems (RDSS)	2016-02			"AoM;#25"	320	ORS	"WP 5;#5"
+DNVGL	ST	1759	ST	Ship classification	Maritime			Approval of manufacturers	Sun Screen system	2016-02			"AoM;#25"	321	Offshore	"Offshore;#11"
+DNVGL	ST	1760	ST	Ship classification	Maritime			Approval of manufacturers	Ship-borne Voyage Data Recorder (VDR)	2016-02			"AoM;#25"	322	Offshore	"Offshore;#11"
+DNVGL	ST	1761	ST	Ship classification	Maritime			Approval of manufacturers	Simplified Voyage Data Recorder (S-VDR)	2016-02			"AoM;#25"	330	ORS	"WP 6;#6"
+DNVGL	ST	1762	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Firms engaged in Ultrasonic Thickness Measurements of Ship’s Structure	2016-02			"AoSS;#26"	402A	ORS	"WP 5;#5"
+DNVGL	ST	1763	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Firms engaged in Non Destructive Testing (NDT) on Offshore Projects and Offshore Units / Components	2016-02			"AoSS;#26"	402B	Offshore	"Offshore;#11"
+DNVGL	ST	1764	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers performing Tightness Testing of Hatches with Ultrasonic Equipment on Ships, High Speed and Mobile Offshore Units	2016-02			"AoSS;#26"	403	FIS	"FIS Survey;#15"
+DNVGL	ST	1765	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers carrying out In–water Survey of Ships, High Speed and Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	404	FIS	"FIS Survey;#15"
+DNVGL	ST	1766	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Surveys and Maintenance of Fire Extinguishing Equipment, Systems and Self Contained Breathing Apparatus on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	405	ORS	"WP 6;#6"
+DNVGL	ST	1767	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the Servicing and Testing of Radio Communication Equipment on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	406	ORS	"WP 6;#6"
+DNVGL	ST	1768	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Service of Inflatable Liferafts, Inflatable Lifejackets, Hydrostatic Release Units and Inflated Rescue Boats on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	407	ORS	"WP 6;#6"
+DNVGL	ST	1769	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Inspection and Testing of Centralised Gas Welding and Cutting Equipment on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	408	ORS	"WP 6;#6"
+DNVGL	ST	1770	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the examination of Ro–Ro Ships Bow, Stern, Side and Inner Doors	2016-02			"AoSS;#26"	409	FIS	"FIS Survey;#15"
+DNVGL	ST	1771	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in survey of low location Lighting systems using photo-luminescent materials	2016-02			"AoSS;#26"	410	ORS	"WP 6;#6"
+DNVGL	ST	1772	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Sound pressure level measurements of Public Address on General Alarm Systems	2016-02			"AoSS;#26"	411	ORS	"WP 6;#6"
+DNVGL	ST	1773	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the Servicing and Testing of Voyage Date Recorders	2016-02			"AoSS;#26"	412	ORS	"WP 6;#6"
+DNVGL	ST	1774	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in renewal survey examination of Mooring chain intended for Mobile Offshore Units	2016-02			"AoSS;#26"	413	Offshore	"Offshore;#11"
+DNVGL	ST	1775	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Laboratories engaged in testing of Coating systems (accord. to IMO Resolution MSC.215(82) and IACS PR34).	2016-02			"AoSS;#26"	414	ORS	"WP 5;#5"
+DNVGL	ST	1776	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers Engaged in Service of Lifeboats, Launching Appliances and Onload Release Gear	2016-02			"AoSS;#26"	415	ORS	"WP 6;#6"
+DNVGL	ST	1777	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in condition monitoring of machinery onboard	2016-02			"AoSS;#26"	416	FIS	"FIS Survey;#15"
+DNVGL	ST	1778	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Test Facilities Engaged in Testing of Ballast Water Management Systems (Environmental Testing)	2016-02			"AoSS;#26"	418	ORS	"WP 6;#6"
+DNVGL	ST	1779	ST	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Test Facilities Engaged in Testing of Ballast Water Management Systems (Land-based and Shipboard Testing)	2016-02			"AoSS;#26"	419	ORS	"WP 6;#6"
+DNVGL	RU	1782	RU-SHIP	Ship classification	Maritime	4	1	Systems and components	Machinery systems - general	2015-07						
+DNVGL	RU	1783	RU-SHIP	Ship classification	Maritime	4	2	Systems and components	Rotating machinery - general	2015-07						
+DNVGL	RU	1784	RU-SHIP	Ship classification	Maritime	4	3	Systems and components	Rotating machinery - drivers	2015-07						
+DNVGL	RU	1785	RU-SHIP	Ship classification	Maritime	4	4	Systems and components	Rotating machinery - power transmission	2015-07						
+DNVGL	RU	1786	RU-SHIP	Ship classification	Maritime	4	5	Systems and components	Rotating machinery - driven units	2015-07						
+DNVGL	RU	1787	RU-SHIP	Ship classification	Maritime	4	6	Systems and components	Piping systems	2015-07						
+DNVGL	RU	1788	RU-SHIP	Ship classification	Maritime	4	7	Systems and components	Pressure vessels	2015-07						
+DNVGL	RU	1789	RU-SHIP	Ship classification	Maritime	4	8	Systems and components	Electrical installations	2015-07						
+DNVGL	RU	1790	RU-SHIP	Ship classification	Maritime	4	9	Systems and components	Control and monitoring systems	2015-07						
+DNVGL	RU	1791	RU-SHIP	Ship classification	Maritime	4	10	Systems and components	Steering gear	2015-07						
+DNVGL	RU	1792	RU-SHIP	Ship classification	Maritime	4	11	Systems and components	Fire safety	2015-07						
+DNVGL	RU	1793	RU-SHIP	Ship classification	Maritime	6	2	Additional Class Notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1794	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1795	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1796	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1797	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1798	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1799	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1800	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1801	RU-SHIP	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1802	RU-SHIP	Ship classification	Maritime	6	3	Additional Class Notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1803	RU-SHIP	Ship classification	Maritime	6	3	Additional class notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1804	RU-SHIP	Ship classification	Maritime	6	3	Additional class notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1805	RU-SHIP	Ship classification	Maritime	6	3	Additional class notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1806	RU-SHIP	Ship classification	Maritime	6	4	Additional Class Notations	Cargo operations	2015-07						
+DNVGL	RU	1807	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1808	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1809	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1810	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1811	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1812	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1813	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1814	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1815	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1816	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1817	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1818	RU-SHIP	Ship classification	Maritime	6	4	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1819	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1820	RU-SHIP	Ship classification	Maritime	7	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1821	RU-SHIP	Ship classification	Maritime	7	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1822	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1823	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1824	RU-SHIP	Ship classification	Maritime	7	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1825	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1826	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1827	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1828	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1829	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1830	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1831	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1832	RU-SHIP	Ship classification	Maritime	6	5	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1833	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1834	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1835	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1836	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1837	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1838	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1839	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1840	RU-SHIP	Ship classification	Maritime	6	7	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1841	RU-SHIP	Ship classification	Maritime	6	8	Additional class notations	Living and working conditions	2015-07						
+DNVGL	RU	1842	RU-SHIP	Ship classification	Maritime	6	8	Additional class notations	Living and working conditions	2015-07						
+DNVGL	RU	1843	RU-SHIP	Ship classification	Maritime	6	8	Additional class notations	Living and working conditions	2015-07						
+DNVGL	RU	1844	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1845	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1846	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1847	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1848	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1849	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1850	RU-SHIP	Ship classification	Maritime	6	9	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1851	RU-HSLC	Ship classification	Maritime	1	1	General regulations	General regulations	2015-07						
+DNVGL	RU	1852	RU-HSLC	Ship classification	Maritime	1	2	General regulations	Class notations	2015-07						
+DNVGL	RU	1853	RU-HSLC	Ship classification	Maritime	1	3	General regulations	Documentation and certification types	2015-07						
+DNVGL	RU	1854	RU-HSLC	Ship classification	Maritime	1	4	General regulations	Safety objectives and equivalent requirements	2015-07						
+DNVGL	RU	1855	RU-HSLC	Ship classification	Maritime	2	1	Materials and welding	Materials - general	2015-07						
+DNVGL	RU	1856	RU-HSLC	Ship classification	Maritime	2	2	Materials and welding	Metallic materials	2015-07						
+DNVGL	RU	1857	RU-HSLC	Ship classification	Maritime	2	3	Materials and welding	Non- metallic materials	2015-07						
+DNVGL	RU	1858	RU-HSLC	Ship classification	Maritime	2	4	Materials and welding	Fabrication and testing	2015-07						
+DNVGL	RU	1859	RU-HSLC	Ship classification	Maritime	3	1	Structures, equipment	Design principles, design loads	2015-07						
+DNVGL	RU	1860	RU-HSLC	Ship classification	Maritime	3	2	Structures, equipment	Hull structural design, steel	2015-07						
+DNVGL	RU	1861	RU-HSLC	Ship classification	Maritime	3	3	Structures, equipment	Hull structural design, aluminium	2015-07						
+DNVGL	RU	1862	RU-HSLC	Ship classification	Maritime	3	4	Structures, equipment	Hull structural design, fibre composite and sandwich constructions	2015-07						
+DNVGL	RU	1863	RU-HSLC	Ship classification	Maritime	3	5	Structures, equipment	Equipment, steering and appendages	2015-07						
+DNVGL	RU	1864	RU-HSLC	Ship classification	Maritime	3	6	Structures, equipment	Stability and watertight integrity, closing appliances	2015-07						
+DNVGL	RU	1865	RU-HSLC	Ship classification	Maritime	3	7	Structures, equipment	Accommodation and escape measures	2015-07						
+DNVGL	RU	1866	RU-HSLC	Ship classification	Maritime	3	8	Structures, equipment	Life-saving appliances and arrangements	2015-07						
+DNVGL	RU	1867	RU-HSLC	Ship classification	Maritime	3	9	Structures, equipment	Direct calculation methods	2015-07						
+DNVGL	RU	1868	RU-HSLC	Ship classification	Maritime	4	1	Systems and components	Machinery systems - general	2015-07						
+DNVGL	RU	1869	RU-HSLC	Ship classification	Maritime	4	2	Systems and components	Rotating machinery - general	2015-07						
+DNVGL	RU	1870	RU-HSLC	Ship classification	Maritime	4	3	Systems and components	Rotating machinery - drivers	2015-07						
+DNVGL	RU	1871	RU-HSLC	Ship classification	Maritime	4	4	Systems and components	Rotating machinery - power transmission	2015-07						
+DNVGL	RU	1872	RU-HSLC	Ship classification	Maritime	4	5	Systems and components	Rotating machinery - driven units	2015-07						
+DNVGL	RU	1873	RU-HSLC	Ship classification	Maritime	4	6	Systems and components	Piping systems	2015-07						
+DNVGL	RU	1874	RU-HSLC	Ship classification	Maritime	4	7	Systems and components	Pressure vessels	2015-07						
+DNVGL	RU	1875	RU-HSLC	Ship classification	Maritime	4	8	Systems and components	Electrical installations	2015-07						
+DNVGL	RU	1876	RU-HSLC	Ship classification	Maritime	4	9	Systems and components	Control and monitoring systems	2015-07						
+DNVGL	RU	1877	RU-HSLC	Ship classification	Maritime	4	10	Systems and components	Steering gear	2015-07						
+DNVGL	RU	1878	RU-HSLC	Ship classification	Maritime	4	11	Systems and components	Fire safety	2015-07						
+DNVGL	RU	1879	RU-HSLC	Ship classification	Maritime	4	12	Systems and components	Control and monitoring of propulsion, directional control, stabilisation and auxiliary systems	2015-07						
+DNVGL	RU	1880	RU-HSLC	Ship classification	Maritime	5	1	Ship types	Passenger craft	2015-07						
+DNVGL	RU	1881	RU-HSLC	Ship classification	Maritime	5	2	Ship types	Car ferry	2015-07						
+DNVGL	RU	1882	RU-HSLC	Ship classification	Maritime	5	3	Ship types	Cargo	2015-07						
+DNVGL	RU	1883	RU-HSLC	Ship classification	Maritime	5	4	Ship types	Crew boats	2015-07						
+DNVGL	RU	1884	RU-HSLC	Ship classification	Maritime	5	5	Ship types	Patrol boats	2015-07						
+DNVGL	RU	1885	RU-HSLC	Ship classification	Maritime	5	6	Ship types	Small service crafts	2015-07						
+DNVGL	RU	1886	RU-HSLC	Ship classification	Maritime	5	7	Ship types	Naval vessels	2015-07						
+DNVGL	RU	1887	RU-HSLC	Ship classification	Maritime	6	1	Additional class notations	Structural strength and integrity	2015-07						
+DNVGL	RU	1888	RU-HSLC	Ship classification	Maritime	6	1	Additional class notations	Structural strength and integrity	2015-07						
+DNVGL	RU	1889	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1890	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1891	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1892	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1893	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1894	RU-HSLC	Ship classification	Maritime	6	2	Additional class notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	1895	RU-HSLC	Ship classification	Maritime	6	3	Additional class notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1896	RU-HSLC	Ship classification	Maritime	6	3	Additional class notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	1897	RU-HSLC	Ship classification	Maritime	6	4	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1898	RU-HSLC	Ship classification	Maritime	6	4	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1899	RU-HSLC	Ship classification	Maritime	6	4	Additional class notations	Equipment and design features	2015-07						
+DNVGL	RU	1900	RU-HSLC	Ship classification	Maritime	6	5	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1901	RU-HSLC	Ship classification	Maritime	6	5	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1902	RU-HSLC	Ship classification	Maritime	6	5	Additional class notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	1903	RU-HSLC	Ship classification	Maritime	6	6	Additional class notations	Living and working conditions	2015-07						
+DNVGL	RU	1904	RU-HSLC	Ship classification	Maritime	6	6	Additional class notations	Living and working conditions	2015-07						
+DNVGL	RU	1905	RU-HSLC	Ship classification	Maritime	6	7	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1906	RU-HSLC	Ship classification	Maritime	6	7	Additional class notations	Survey arrangements	2015-07						
+DNVGL	RU	1907	RU-HSLC	Ship classification	Maritime	6	8	Additional class notations	Naval 	2015-07						
+DNVGL	RU	1908	RU-HSLC	Ship classification	Maritime	6	8	Additional class notations	Naval 	2015-07						
+DNVGL	RU	1909	RU-HSLC	Ship classification	Maritime	6	8	Additional class notations	Naval 	2015-07						
+DNVGL	RU	1910	RU-HSLC	Ship classification	Maritime	6	8	Additional class notations	Naval 	2015-07						
+DNVGL	RU	1911	RU-HSLC	Ship classification	Maritime	7	1	Fleet in service	Survey requirements	2015-07						
+DNVGL	RU	1912	RU-HSLC	Ship classification	Maritime	7	2	Fleet in service	Retroactive requirements	2015-07						
+DNVGL	RU	1913	RU-INV	Ship classification	Maritime	1	1	General regulations	General regulations	2015-07						
+DNVGL	RU	1914	RU-INV	Ship classification	Maritime	1	2	General regulations	Class notations	2015-07						
+DNVGL	RU	1915	RU-INV	Ship classification	Maritime	2	1	Materials and welding	Materials - general	2015-07						
+DNVGL	RU	1916	RU-INV	Ship classification	Maritime	2	2	Materials and welding	Metallic materials	2015-07						
+DNVGL	RU	1917	RU-INV	Ship classification	Maritime	2	3	Materials and welding	Non- metallic materials	2015-07						
+DNVGL	RU	1918	RU-INV	Ship classification	Maritime	2	4	Materials and welding	Fabrication and testing	2015-07						
+DNVGL	RU	1919	RU-INV	Ship classification	Maritime	2	5	Materials and welding	Materials for INV	2015-07						
+DNVGL	RU	1920	RU-INV	Ship classification	Maritime	3	1	Structures, equipment	Hull design and construction, general	2015-07						
+DNVGL	RU	1921	RU-INV	Ship classification	Maritime	3	2	Structures, equipment	Design load principle	2015-07						
+DNVGL	RU	1922	RU-INV	Ship classification	Maritime	3	3	Structures, equipment	Hull girder strength	2015-07						
+DNVGL	RU	1923	RU-INV	Ship classification	Maritime	3	4	Structures, equipment	Hull scantlings	2015-07						
+DNVGL	RU	1924	RU-INV	Ship classification	Maritime	3	5	Structures, equipment	Others structures	2015-07						
+DNVGL	RU	1925	RU-INV	Ship classification	Maritime	3	6	Structures, equipment	Hull outfitting	2015-07						
+DNVGL	RU	1926	RU-INV	Ship classification	Maritime	4	1	Systems and components	Machinery and systems	2015-07						
+DNVGL	RU	1927	RU-INV	Ship classification	Maritime	4	6	Systems and components	Pipes, valves, fittings and punps	2015-07						
+DNVGL	RU	1928	RU-INV	Ship classification	Maritime	4	7	Systems and components	Pressure vessels and heat exchanges, boilers and thermal oil heaters	2015-07						
+DNVGL	RU	1929	RU-INV	Ship classification	Maritime	4	8	Systems and components	Electrical installations	2015-07						
+DNVGL	RU	1930	RU-INV	Ship classification	Maritime	4	9	Systems and components	Control, monitoring, alarm and safety systems	2015-07						
+DNVGL	RU	1931	RU-INV	Ship classification	Maritime	4	10	Systems and components	Steering gear	2015-07						
+DNVGL	RU	1932	RU-INV	Ship classification	Maritime	4	11	Systems and components	Fire safety	2015-07						
+DNVGL	RU	1933	RU-INV	Ship classification	Maritime	5	1	Ship types	Cargo vessels	2015-07						
+DNVGL	RU	1934	RU-INV	Ship classification	Maritime	5	2	Ship types	Tankers	2015-07						
+DNVGL	RU	1935	RU-INV	Ship classification	Maritime	5	3	Ship types	Container vessels	2015-07						
+DNVGL	RU	1936	RU-INV	Ship classification	Maritime	5	4	Ship types	RoRo vessels	2015-07						
+DNVGL	RU	1937	RU-INV	Ship classification	Maritime	5	5	Ship types	Passenger vessels	2015-07						
+DNVGL	RU	1938	RU-INV	Ship classification	Maritime	5	6	Ship types	Tugs and pushers	2015-07						
+DNVGL	RU	1939	RU-INV	Ship classification	Maritime	5	7	Ship types	Pontoons	2015-07						
+DNVGL	RU	1940	RU-INV	Ship classification	Maritime	5	8	Ship types	Dredgers	2015-07						
+DNVGL	RU	1941	RU-INV	Ship classification	Maritime	5	9	Ship types	Launches	2015-07						
+DNVGL	RU	1942	RU-INV	Ship classification	Maritime	6	1	Additional class notations	Transport of dangerous goods	2015-07						
+DNVGL	RU	1943	RU-INV	Ship classification	Maritime	6	2	Additional class notations	Ship strength	2015-07						
+DNVGL	RU	1944	RU-INV	Ship classification	Maritime	6	3	Additional class notations	Cargo operations	2015-07						
+DNVGL	RU	1945	RU-INV	Ship classification	Maritime	6	4	Additional class notations	Stability	2015-07						
+DNVGL	RU	1946	RU-INV	Ship classification	Maritime	6	5	Additional class notations	Additional fire rules for passenger vessels	2015-07						
+DNVGL	RU	1947	RU-INV	Ship classification	Maritime	7	2	Fleet in Service	Survey requirements	2015-07						
+DNVGL	RU	1948	RU-FLOAT	Ship classification	Maritime	1	1		Rules for Floating Docks	2015-07						
+DNVGL	RU	1949	RU-UWT	Ship classification	Maritime	1	1	General regulations	General regulations	2015-07						
+DNVGL	RU	1950	RU-UWT	Ship classification	Maritime	1	2	General regulations	Class notations	2015-07						
+DNVGL	RU	1951	RU-UWT	Ship classification	Maritime	1	3	General regulations	Documentation and certification types	2015-07						
+DNVGL	RU	1952	RU-UWT	Ship classification	Maritime	2	1	Materials and welding	General Requirements for Materials	2015-07						
+DNVGL	RU	1953	RU-UWT	Ship classification	Maritime	2	2	Materials and welding	Metallic materials	2015-07						
+DNVGL	RU	1954	RU-UWT	Ship classification	Maritime	2	3	Materials and welding	Fabrication and testing of ships	2015-07						
+DNVGL	RU	1955	RU-UWT	Ship classification	Maritime	2	4	Materials and welding	Non-metallic materials	2015-07						
+DNVGL	RU	1956	RU-UWT	Ship classification	Maritime	2	5	Materials and welding	Materials for Underwater applications	2015-07						
+DNVGL	RU	1957	RU-UWT	Ship classification	Maritime	3	1	Pressure hull and structures	General principles	2015-07						
+DNVGL	RU	1958	RU-UWT	Ship classification	Maritime	3	2	Pressure hull and structures	General arrangement design	2015-07						
+DNVGL	RU	1959	RU-UWT	Ship classification	Maritime	3	3	Pressure hull and structures	Design principles	2015-07						
+DNVGL	RU	1960	RU-UWT	Ship classification	Maritime	3	4	Pressure hull and structures	Design loads	2015-07						
+DNVGL	RU	1961	RU-UWT	Ship classification	Maritime	3	5	Pressure hull and structures	Pressure hull	2015-07						
+DNVGL	RU	1962	RU-UWT	Ship classification	Maritime	3	6	Pressure hull and structures	Supporting structure, exostructure and equipment	2015-07						
+DNVGL	RU	1963	RU-UWT	Ship classification	Maritime	3	7	Pressure hull and structures	Opening and closings	2015-07						
+DNVGL	RU	1964	RU-UWT	Ship classification	Maritime	3	8	Pressure hull and structures	Rudders and fins	2015-07						
+DNVGL	RU	1965	RU-UWT	Ship classification	Maritime	3	9	Pressure hull and structures	Stability and buoyancy	2015-07						
+DNVGL	RU	1966	RU-UWT	Ship classification	Maritime	4	1	Machinery and systems	General	2015-07						
+DNVGL	RU	1967	RU-UWT	Ship classification	Maritime	4	2	Machinery and systems	Propulsion and manoeuvring equipment	2015-07						
+DNVGL	RU	1968	RU-UWT	Ship classification	Maritime	4	3	Machinery and systems	Ballasting, control/compensating and trimming systems	2015-07						
+DNVGL	RU	1969	RU-UWT	Ship classification	Maritime	4	4	Machinery and systems	Life support systems	2015-07						
+DNVGL	RU	1970	RU-UWT	Ship classification	Maritime	4	5	Machinery and systems	Umbilicals	2015-07						
+DNVGL	RU	1971	RU-UWT	Ship classification	Maritime	4	6	Machinery and systems	Piping systems, pumps and compressors	2015-07						
+DNVGL	RU	1972	RU-UWT	Ship classification	Maritime	4	7	Machinery and systems	Vessels and apparatus under pressure	2015-07						
+DNVGL	RU	1973	RU-UWT	Ship classification	Maritime	4	8	Machinery and systems	Electrical systems	2015-07						
+DNVGL	RU	1974	RU-UWT	Ship classification	Maritime	4	9	Machinery and systems	Control and monitoring systems	2015-07						
+DNVGL	RU	1975	RU-UWT	Ship classification	Maritime	4	10	Machinery and systems	Fire safety	2015-07						
+DNVGL	RU	1976	RU-UWT	Ship classification	Maritime	5	1	Type notations	Diving systems	2015-07						
+DNVGL	RU	1977	RU-UWT	Ship classification	Maritime	5	2	Type notations	Saturation diving systems	2015-07						
+DNVGL	RU	1978	RU-UWT	Ship classification	Maritime	5	3	Type notations	Surface oriented diving systems	2015-07						
+DNVGL	RU	1979	RU-UWT	Ship classification	Maritime	5	4	Type notations	Diving simulators	2015-07						
+DNVGL	RU	1980	RU-UWT	Ship classification	Maritime	5	5	Type notations	Hyperbaric reception facilities	2015-07						
+DNVGL	RU	1981	RU-UWT	Ship classification	Maritime	5	6	Type notations	Manned submersibles	2015-07						
+DNVGL	RU	1982	RU-UWT	Ship classification	Maritime	5	7	Type notations	Remotely operated vehicles	2015-07						
+DNVGL	RU	1983	RU-UWT	Ship classification	Maritime	5	8	Type notations	Autonomous underwater vehicles	2015-07						
+DNVGL	RU	1984	RU-UWT	Ship classification	Maritime	5	9	Type notations	Underwater working machines and systems	2015-07						
+DNVGL	RU	1985	RU-UWT	Ship classification	Maritime	7	1	Systems in Service	Survey requirements	2015-07						
+DNVGL	RU	1986	RU-UWT	Ship classification	Maritime	7	2	Systems in Service	Spare parts	2015-07						
+DNVGL	RU	1987	RU-NAVAL	Ship classification	Maritime	1		Classification and surveys	Classification and surveys	2015-07						
+DNVGL	RU	1988	RU-NAVAL	Ship classification	Maritime	2	1	Materials and welding	Materials - general	2015-07						
+DNVGL	RU	1989	RU-NAVAL	Ship classification	Maritime	2	2	Materials and welding	Metallic materials	2015-07						
+DNVGL	RU	1990	RU-NAVAL	Ship classification	Maritime	2	3	Materials and welding	Non- metallic materials	2015-07						
+DNVGL	RU	1991	RU-NAVAL	Ship classification	Maritime	2	4	Materials and welding	Fabrication and testing	2015-07						
+DNVGL	RU	1992	RU-NAVAL	Ship classification	Maritime	2	5	Materials and welding	Special Materials for naval ships	2015-07						
+DNVGL	RU	1993	RU-NAVAL	Ship classification	Maritime	3	1	Surface ships	Hull structures and ship equipment	2015-07						
+DNVGL	RU	1994	RU-NAVAL	Ship classification	Maritime	3	2	Surface ships	Propulsion plants	2015-07						
+DNVGL	RU	1995	RU-NAVAL	Ship classification	Maritime	3	3	Surface ships	Electrical installations	2015-07						
+DNVGL	RU	1996	RU-NAVAL	Ship classification	Maritime	3	4	Surface ships	Automation	2015-07						
+DNVGL	RU	1997	RU-NAVAL	Ship classification	Maritime	3	5	Surface ships	Ship operation installations and auxilliary systems	2015-07						
+DNVGL	RU	1998	RU-NAVAL	Ship classification	Maritime	4	1	Sub-surface ships	Submarines	2015-07						
+DNVGL	RU	1999	RU-NAVAL	Ship classification	Maritime	4	2	Sub-surface ships	Remotely operated underwater vehicles	2015-07						
+DNVGL	RU	2000	RU-NAVAL	Ship classification	Maritime	4	3	Sub-surface ships	Guidelines for air independent power systems for underwater use	2015-07						
+DNVGL	RU	2001	RU-YACHTS	Ship classification	Maritime	1	1	General Regulations	General regulations	2015-07						
+DNVGL	RU	2002	RU-YACHTS	Ship classification	Maritime	1	2	General Regulations	Class notations	2015-07						
+DNVGL	RU	2003	RU-YACHTS	Ship classification	Maritime	1	3	General regulations	Documentation and certification types	2015-07						
+DNVGL	RU	2004	RU-YACHTS	Ship classification	Maritime	2	1	Materials and Welding	Materials - general	2015-07						
+DNVGL	RU	2005	RU-YACHTS	Ship classification	Maritime	2	2	Materials and Welding	Metallic materials	2015-07						
+DNVGL	RU	2006	RU-YACHTS	Ship classification	Maritime	2	3	Materials and Welding	Non- metallic materials	2015-07						
+DNVGL	RU	2007	RU-YACHTS	Ship classification	Maritime	2	4	Materials and Welding	Fabrication and testing	2015-07						
+DNVGL	RU	2008	RU-YACHTS	Ship classification	Maritime	3	1	Hull	Design Principles	2015-07						
+DNVGL	RU	2009	RU-YACHTS	Ship classification	Maritime	3	2	Hull	Hull design loads	2015-07						
+DNVGL	RU	2010	RU-YACHTS	Ship classification	Maritime	3	2	Hull	Hull design loads	2015-07						
+DNVGL	RU	2011	RU-YACHTS	Ship classification	Maritime	3	2	Hull	Hull design loads	2015-07						
+DNVGL	RU	2012	RU-YACHTS	Ship classification	Maritime	3	2	Hull	Hull design loads	2015-07						
+DNVGL	RU	2013	RU-YACHTS	Ship classification	Maritime	3	3	Hull	Hull structural design (Metal)	2015-07						
+DNVGL	RU	2014	RU-YACHTS	Ship classification	Maritime	3	4	Hull	Hull structural design, fibre composite and sandwich constructions	2015-07						
+DNVGL	RU	2015	RU-YACHTS	Ship classification	Maritime	3	5	Hull	Hull equipment, supporting structure and appendages	2015-07						
+DNVGL	RU	2016	RU-YACHTS	Ship classification	Maritime	3	6	Hull	Opening and closing appliances	2015-07						
+DNVGL	RU	2017	RU-YACHTS	Ship classification	Maritime	3	7	Hull	Rudders and steering	2015-07						
+DNVGL	RU	2018	RU-YACHTS	Ship classification	Maritime	3	8	Hull	Stability	2015-07						
+DNVGL	RU	2019	RU-YACHTS	Ship classification	Maritime	3	9	Hull	Direct calculation methods	2015-07						
+DNVGL	RU	2020	RU-YACHTS	Ship classification	Maritime	4	1	Systems and components	Machinery and systems, general	2015-07						
+DNVGL	RU	2021	RU-YACHTS	Ship classification	Maritime	4	2	Systems and components	Rotating machinery, general	2015-07						
+DNVGL	RU	2022	RU-YACHTS	Ship classification	Maritime	4	3	Systems and components	Rotating machinery, drivers	2015-07						
+DNVGL	RU	2023	RU-YACHTS	Ship classification	Maritime	4	4	Systems and components	Rotating machinery, power transmission	2015-07						
+DNVGL	RU	2024	RU-YACHTS	Ship classification	Maritime	4	5	Systems and components	Rotating machinery, driven Units	2015-07						
+DNVGL	RU	2025	RU-YACHTS	Ship classification	Maritime	4	6	Systems and components	Piping systems	2015-07						
+DNVGL	RU	2026	RU-YACHTS	Ship classification	Maritime	4	7	Systems and components	Pressure vessels	2015-07						
+DNVGL	RU	2027	RU-YACHTS	Ship classification	Maritime	4	8	Systems and components	Electrical installations	2015-07						
+DNVGL	RU	2028	RU-YACHTS	Ship classification	Maritime	4	9	Systems and components	Control and monitoring systems	2015-07						
+DNVGL	RU	2029	RU-YACHTS	Ship classification	Maritime	4	10	Systems and components	Steering gear	2015-07						
+DNVGL	RU	2030	RU-YACHTS	Ship classification	Maritime	4	11	Systems and components	Fire safety	2015-07						
+DNVGL	RU	2031	RU-YACHTS	Ship classification	Maritime	5	1	Ship types	Displacement motoryachts	2015-07						
+DNVGL	RU	2032	RU-YACHTS	Ship classification	Maritime	5	2	Ship types	High speed & multihull motoryachts	2015-07						
+DNVGL	RU	2033	RU-YACHTS	Ship classification	Maritime	5	3	Ship types	Displacement sailing yachts	2015-07						
+DNVGL	RU	2034	RU-YACHTS	Ship classification	Maritime	5	4	Ship types	Modern sailing yachts	2015-07						
+DNVGL	RU	2035	RU-YACHTS	Ship classification	Maritime	5	5	Ship types	Multihull sailing yachts	2015-07						
+DNVGL	RU	2036	RU-YACHTS	Ship classification	Maritime	5	6	Ship types	Passenger yachts	2015-07						
+DNVGL	RU	2037	RU-YACHTS	Ship classification	Maritime	5	7	Ship types	Motor sailing ship	2015-07						
+DNVGL	RU	2038	RU-YACHTS	Ship classification	Maritime	6	1	Additional Class Notations	Structural strength and integrity	2015-07						
+DNVGL	RU	2039	RU-YACHTS	Ship classification	Maritime	6	1	Additional Class Notations	Ship strength	2015-07						
+DNVGL	RU	2040	RU-YACHTS	Ship classification	Maritime	6	2	Additional Class Notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	2041	RU-YACHTS	Ship classification	Maritime	6	2	Additional Class Notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	2042	RU-YACHTS	Ship classification	Maritime	6	2	Additional Class Notations	Propulsion, power generation and auxiliary systems	2015-07						
+DNVGL	RU	2043	RU-YACHTS	Ship classification	Maritime	6	3	Additional Class Notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	2044	RU-YACHTS	Ship classification	Maritime	6	3	Additional Class Notations	Navigation and manoeuvring	2015-07						
+DNVGL	RU	2045	RU-YACHTS	Ship classification	Maritime	6	5	Additional Class Notations	Equipment and design features	2015-07						
+DNVGL	RU	2046	RU-YACHTS	Ship classification	Maritime	6	5	Additional Class Notations	Equipment and design features	2015-07						
+DNVGL	RU	2047	RU-YACHTS	Ship classification	Maritime	6	6	Additional Class Notations	Cold climate	2015-07						
+DNVGL	RU	2048	RU-YACHTS	Ship classification	Maritime	6	6	Additional Class Notations	Cold climate	2015-07						
+DNVGL	RU	2049	RU-YACHTS	Ship classification	Maritime	6	6	Additional Class Notations	Cold climate	2015-07						
+DNVGL	RU	2050	RU-YACHTS	Ship classification	Maritime	6	7	Additional Class Notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	2051	RU-YACHTS	Ship classification	Maritime	6	7	Additional Class Notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	2052	RU-YACHTS	Ship classification	Maritime	6	7	Additional Class Notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	2053	RU-YACHTS	Ship classification	Maritime	6	7	Additional Class Notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	2054	RU-YACHTS	Ship classification	Maritime	6	7	Additional Class Notations	Environmental protection and pollution control	2015-07						
+DNVGL	RU	2055	RU-YACHTS	Ship classification	Maritime	6	8	Additional Class Notations	Living and working conditions	2015-07						
+DNVGL	RU	2056	RU-YACHTS	Ship classification	Maritime	6	8	Additional Class Notations	Living and working conditions	2015-07						
+DNVGL	RU	2057	RU-YACHTS	Ship classification	Maritime	6	9	Additional Class Notations	Survey arrangements	2015-07						
+DNVGL	RU	2058	RU-YACHTS	Ship classification	Maritime	6	9	Additional Class Notations	Survey arrangements	2015-07						
+DNVGL	RU	2059	RU-YACHTS	Ship classification	Maritime	6	9	Additional Class Notations	Survey arrangements	2015-07						
+DNVGL	RU	2060	RU-YACHTS	Ship classification	Maritime	6	9	Additional Class Notations	Survey arrangements	2015-07						
+DNVGL	RU	2061	RU-YACHTS	Ship classification	Maritime	6	9	Additional Class Notations	Survey arrangements	2015-07						
+DNVGL	RU	2062	RU-YACHTS	Ship classification	Maritime	6	10	Additional Class Notations	Sailing rigs	2015-07						
+DNVGL	RU	2063	RU-YACHTS	Ship classification	Maritime	6	10	Additional Class Notations	Sailing rigs	2015-07						
+DNVGL	RU	2064	RU-YACHTS	Ship classification	Maritime	6	10	Additional Class Notations	Sailing rigs	2015-07						
+DNVGL	RU	2065	RU-YACHTS	Ship classification	Maritime	7	1	Fleet in service	Survey requirements	2015-07						
+DNVGL	RU	2066	RU-YACHTS	Ship classification	Maritime	7	2	Fleet in service	Retroactive requirements	2015-07						
+DNVGL	RU	1202	RU-MOU	Offshore classification	Maritime				Rules for classification of offshore drilling and support units	2015-07			"OSS;#5"	OSS-101	Offshore	"Offshore;#11"
+DNVGL	RU	1203	RU-MOU	Offshore classification	Maritime				Rules for classification of floating production and storage units	2015-07			"OSS;#5"	OSS-102	Offshore	"Offshore;#11"
+DNVGL	RU	1204	RU-MOU	Offshore classification	Maritime				Rules for classification of LNG/LPG floating production and storage units or installations	2015-07			"OSS;#5"	OSS-103	Offshore	"Offshore;#11"
+DNVGL	RU	1205	RU-MOU	Offshore classification	Maritime				Rules for classification of self-elevating units	2015-07			"OSS;#5"	OSS-104	Offshore	"Offshore;#11"
+DNVGL	SE	1206	SE	Renewable certification	Energy				Wind Turbine Type Certification in accordance to IEC 61400-22	2015-12						
+DNVGL	SE	1207	SE	Renewable certification	Energy				Wind Farm Project Certification in accordance to IEC 61400-22	2015-12						
+DNVGL	SE	1208	SE	Renewable certification	Energy				Wind Turbine Type Certification	2015-12						
+DNVGL	SE	1209	SE	Renewable certification	Energy				Wind Farm Project Certification	2015-12						
+DNVGL	SE	1210	SE	Renewable certification	Energy				Certification of Condition Monitoring Systems	2015-12						
+DNVGL	SE	1211	SE	Renewable certification	Energy				Tidal Power Plant Certification	2015-12						
+DNVGL	SE	1212	SE	Renewable certification	Energy				Wave Power Plant Certification	2015-12						
+DNVGL	SE	1213	SE	Renewable certification	Energy				Certification of Grid Code Compliance of Renewable Energy Systems	2015-12						
+DNVGL	SE	1214	SE	Renewable certification	Energy				Certification of Training Systems	2015-12						
+DNVGL	SE	1215	SE	Renewable certification	Energy				Certification of Fire Protection Systems for Wind Turbines	2015-12						
+DNVGL	SE	1216	SE	Renewable certification	Energy				Certification of Service Providers for Wind Turbines	2015-12						
+DNVGL	SE	1217	SE	Renewable certification	Energy				PV Power Plant Project Certification	2015-12						
+DNVGL	SE	1218	SE	Renewable certification	Energy				Certification of Small Wind Turbines	2015-12						
+DNVGL	SE	1219	SE	Renewable certification	Energy				Certification of Medium Wind Turbines	2015-12						
+DNVGL	SE	1220	SE	Renewable certification	Energy				Risk Assessment of Offshore Wind Parks	2015-12						
+DNVGL	ST	1221	ST	Renewable certification	Energy				Design and Manufacture of Wind Turbine Blades	2015-12						
+DNVGL	ST	1222	ST	Renewable certification	Energy				Design of Onshore Wind Turbine towers and foundations	2015-12						
+DNVGL	ST	1223	ST	Renewable certification	Energy				Design of Offshore Wind Turbine Support Structures	2016-02						
+DNVGL	ST	1224	ST	Renewable certification	Energy				Design of Offshore Wind Turbine Floating Support Structures	2016-02						
+DNVGL	ST	1225	ST	Renewable certification	Energy				Design of Wind Turbine Safety Systems	2016-02						
+DNVGL	ST	1226	ST	Renewable certification	Energy				Load Assumptions for onshore Wind Turbines (incl. Design basis and site ass.)	2016-02						
+DNVGL	ST	1227	ST	Renewable certification	Energy				Load Assumptions for Offshore Wind Turbines (incl. Design basis and site ass.)	2016-02						
+DNVGL	ST	1228	ST	Renewable certification	Energy				Strength Analysis	2016-02						
+DNVGL	ST	1229	ST	Renewable certification	Energy				Machinery Components of Wind Turbines (mechanical components, nacelle-hub cover)	2016-02						
+DNVGL	ST	1230	ST	Renewable certification	Energy				Electrical Instalations for Wind Turbines	2016-02						
+DNVGL	ST	1231	ST	Renewable certification	Energy				Cables Offshore	2016-02						
+DNVGL	ST	1232	ST	Renewable certification	Energy				Marine operations for Offshore Wind Turbines	2016-02						
+DNVGL	ST	1233	ST	Renewable certification	Energy				Grid Code Compliance of Renewable Energy Systems	2016-02						
+DNVGL	ST	1234	ST	Renewable certification	Energy				Design of Tidal Turbines	2016-02						
+DNVGL	ST	1235	ST	Renewable certification	Energy				Design of Wave Energy Devices	2016-02						
+DNVGL	ST	1236	ST	Renewable certification	Energy				Requirements for Manufacturers and Materials	2016-02						
+DNVGL	ST	1237	ST	Renewable certification	Energy				Corrosion Protection of Offshore Wind Turbines	2016-02						
+DNVGL	ST	1238	ST	Renewable certification	Energy				 Offshore Substations for Wind Farms	2016-02						
+DNVGL	RP	1239	RP	Renewable certification	Energy				Remote sensing of Wind Turbines	2016-02						
+DNVGL	RP	1240	RP	Renewable certification	Energy				Electromagnetic Compatibility of Wind Turbines	2016-02						
+DNVGL	RP	1241	RP	Renewable certification	Energy				Certification of Wind Turbines for Tropical Cyclone Conditions	2016-02						
+DNVGL	RP	1242	RP	Renewable certification	Energy				Turbines in Ice Conditions	2016-02						
+DNVGL	RP	1243	RP	Renewable certification	Energy				Wind Turbines in Cold climate conditions	2016-02						
+DNVGL	RP	1244	RP	Renewable certification	Energy				Wind Turbines in Hot climate conditions	2016-02						
+DNVGL	RP	1245	RP	Renewable certification	Energy				GCC Test of Frequency Converter in the Lab (TFCL)	2016-02						
+DNVGL	RP	1246	RP	Renewable certification	Energy				Vertical Axis Wind Turbines	2016-02						
+																
+																

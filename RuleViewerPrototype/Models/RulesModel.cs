@@ -7,13 +7,13 @@ namespace RuleViewerPrototype.Models
 {
    public class RulesModel
    {
-      public List<string> FoodCategories
+      public List<string> ServiceCategories
       {
-         get { return RuleDocs.SelectMany(rd => rd.FoodCategories).Distinct().OrderBy(s => s).ToList(); }
+         get { return RuleDocs.SelectMany(rd => rd.ServiceCategories).Distinct().OrderBy(s => s).ToList(); }
       }
-      public List<string> LegCategories
+      public List<string> IndustryCategories
       {
-         get { return RuleDocs.SelectMany(rd => rd.LegCategories).Distinct().OrderBy(s => s).ToList(); }
+         get { return RuleDocs.SelectMany(rd => rd.IndustryCategories).Distinct().OrderBy(s => s).ToList(); }
       }
 
       public List<RuleDoc> RuleDocs { get; set; }
