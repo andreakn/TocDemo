@@ -1,0 +1,143 @@
+﻿body {
+}
+ul, ul > li {
+   list-style: none;
+}
+
+div.clear {
+   clear: both;
+}
+
+div.space {
+   margin-top: 15px;
+}
+
+.categoryFiltered {
+   display: none;
+}
+.foodFiltered {
+   display: none;
+}
+.legFiltered {
+   display: none;
+}
+
+.freeTextFiltered {
+   display: none;
+}
+
+.groupHidden{
+   display:none;
+}
+
+/* table layout */
+@tablewidth : 1140px;
+@gap : 2px;
+@buttonwidth: 30px;
+@editionwidth: 65px;
+@amendedwidth: @editionwidth;
+
+@statuswidth: 40px;
+@historywidth: 65px;
+
+@doccodewidth: 150px;
+@usedGroupHeadingSpace : @buttonwidth + @amendedwidth + @statuswidth + @historywidth + 4*@gap;
+@topheadingWidth: @tablewidth - @usedGroupHeadingSpace;
+
+@usedRuleRowSpace : @doccodewidth + @editionwidth + @amendedwidth + @statuswidth + @historywidth + 4*@gap;
+@namewidth: @tablewidth - @usedRuleRowSpace;
+
+
+   ul{
+      padding : 0px;
+   }
+
+#rulesTable {
+   width: @tablewidth;
+   font-size: 12px;
+
+   ul.ruleGroup{
+      span.weakBottom{
+         border-bottom:1px solid #eee; 
+      }
+
+      li.ruleGroupHeading{
+         width:@tablewidth;
+         clear:both;
+         height: 35px;
+         margin-bottom:3px;
+         span{
+            float:left;
+            background-color:lightblue;
+            height: 35px;
+         }
+         span.spaceleft{
+            margin-left:@gap;
+         }
+         span.buttonplace{
+            padding:8px 2px;
+            width:@buttonwidth;
+         }
+         span.topHeadingplace{
+            width:@topheadingWidth;
+            padding-top: 2px;
+            padding-left: 10px;
+         }
+         span.editionPlace{
+            width:@editionwidth;
+         }
+         span.amendedPlace{
+            width:@editionwidth;
+         }
+         span.statusPlace{
+            width:@statuswidth;
+         }
+         span.historyPlace{
+            width:@historywidth;
+         }
+      }
+      li.ruleLayout{
+         clear:both;
+         width:@tablewidth;
+         height:25px;
+         span{
+            float:left;
+         }
+         span.spaceleft{
+            margin-left:@gap;
+         }
+         span.namePlace{
+            width:@namewidth;
+         }
+         span.docCodePlace{
+            width:@doccodewidth;
+         }
+         span.editionPlace{
+            width:@editionwidth;
+         }
+         span.amendedPlace{
+            width:@editionwidth;
+         }
+         span.statusPlace{
+            width:@statuswidth;
+         }
+         span.historyPlace{
+            width:@historywidth;
+         }
+      }
+
+
+   }
+}
+
+#filters{
+    
+
+   .filter{
+      float:left;
+      margin-left:25px;
+      margin-bottom: 8px;
+   }
+}
+
+
