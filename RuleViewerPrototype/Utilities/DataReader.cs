@@ -28,6 +28,7 @@ namespace RuleViewerPrototype.Utilities
             if(importPoco==null)continue;
 
             var ruleDoc = TransformToRuleDoc(importPoco);
+            if(ruleDoc.Edition==null)ruleDoc.Edition=new DateTime(2015,7,1);
             if(ruleDoc!=null)
                ret.Add(ruleDoc);
             else
