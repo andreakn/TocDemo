@@ -43,8 +43,8 @@ namespace RuleViewerPrototype.Utilities
             var rule = new RuleDoc
             {
                DocumentCode = string.Format("{0}-{1}-{2}", poco.DocCodePrefix, poco.DocCodeType, poco.DocCodeSerialNo),
-               ServiceCategories = poco.Service.Split(' ').Where(s => !string.IsNullOrEmpty(s)).ToList(),
-               IndustryCategories = poco.Industry.Split(' ').Where(s => !string.IsNullOrEmpty(s)).ToList(),
+               ServiceCategories = (new List<string>{poco.Service}).Where(s => !string.IsNullOrEmpty(s)).ToList(),
+               IndustryCategories = (new List<string>{poco.Industry}).Where(s => !string.IsNullOrEmpty(s)).ToList(),
                Amended = poco.Amended.ToMonthYear(),
                Edition = poco.Edition.ToMonthYear(),
                FileName = "unknown.pdf",
@@ -52,7 +52,8 @@ namespace RuleViewerPrototype.Utilities
                Name = poco.DocumentTitle,
                Status = "NEW",
                RulePartNumber=int.Parse("0"+poco.RUPartNo),
-               RuleChapterNumber=int.Parse("0"+poco.RUChapterNo)
+               RuleChapterNumber=int.Parse("0"+poco.RUChapterNo),
+               RulePartTitle=poco.RUSubtype
             };
 
             if (poco.DocCodeType == "RU")

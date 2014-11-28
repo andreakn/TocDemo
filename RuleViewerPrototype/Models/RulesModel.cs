@@ -77,5 +77,22 @@ namespace RuleViewerPrototype.Models
       {
          return edition.ToMonthYear() == LatestEditionInSelection ? "selected" : "";
       }
+
+
+      public Dictionary<string, List<RuleDoc>> GroupedAndOrderedRules;
+
+      public void GroupAndOrderRules()
+      {
+         GroupedAndOrderedRules = new Dictionary<string, List<RuleDoc>>();
+
+         var groups = RuleDocs.GroupBy(rd => rd.HeadingName);
+         foreach (var ruleGroup in groups)
+         {
+            var list =
+               ruleGroup.OrderBy(r => r.RulePartNumber).ThenBy(r => r.RuleChapterNumber).ThenBy(r => r.Name).ToList();
+            GroupedAndOrderedRules[ruleGroup.Key] = list;
+         }
+      }
+
    }
 }

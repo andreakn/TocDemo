@@ -43,6 +43,9 @@
          Free text filter: <input type="text" class="input-xs" placeholder="start typing to filter" id="freeTextFilter" />
       </div>
       <div class="filter">
+         <input type="button" class="btn btn-default btn-sm" id="clearFilters" value="Clear all filters" />
+      </div>
+      <div class="filter">
          <span id="filterSpinner" style="display: none;">
             <img src="/Content/Images/spinner.GIF" alt="loading" />
             please wait ...
@@ -51,8 +54,13 @@
    </div>
    <div id="rules" class="space">
       <ul id="rulesTable">
-         @foreach (var group in Model.RuleDocs.GroupBy(g=>g.HeadingName))
+         
+        
+
+         @foreach (var key in Model.GroupedAndOrderedRules.Keys)
          {
+            var group = Model.GroupedAndOrderedRules[key];
+            
             <li>
                <ul class="ruleGroup">
                   <li class="ruleGroupHeading">
@@ -61,7 +69,7 @@
                         <img src="/Content/Images/minus.gif" class="collapseGroup" alt="collapse" style="display: none;" />
                      </span>
                      <span class="topHeadingplace clickable">
-                        <b>@group.Key</b>
+                        <b>@key</b>
                         <br/>
                         @group.Max(rd=>rd.Edition).MonthYear()
                      </span>
@@ -69,35 +77,58 @@
                      <span class="statusPlace spaceleft"></span>
                      <span class="historyPlace spaceleft"></span>
                   </li>
-                  <li class="ruleDocHeading ruleLayout groupHidden"  >
-                     <span class="namePlace weakBottom">&nbsp;</span>
-                     <span class="docCodePlace weakBottom"><b>Document code</b></span>
-                     <span class="editionPlace spaceleft weakBottom"><b>Edition</b></span>
-                     <span class="amendedPlace spaceleft weakBottom"><b>Amended</b></span>
-                     <span class="statusPlace spaceleft weakBottom">&nbsp;</span>
-                     <span class="historyPlace spaceleft weakBottom"><b>History</b></span>
-                  </li>
-                  @foreach (var rule in group.OrderBy(r=>r.RulePartNumber).ThenBy(r=>r.RuleChapterNumber).ThenBy(r=>r.Name))
+                  @if (!group.Any(r => r.RuleChapterNumber > 0))
                   {
-                     <li 
-                        data-servicecategories='@string.Join(" ",rule.ServiceCategories)' 
-                        data-industrycategories='@string.Join(" ",rule.IndustryCategories)' 
-                         data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant() @rule.GetRulePartAndChapter() @rule.GetRulePartAndChapter(true)" class="ruleDoc ruleLayout groupHidden">
-                        <span class="namePlace weakBottom">
+                  <li class="ruleDocHeading ruleLayout groupHidden"  >
+                     <span class="namePlace ">&nbsp;</span>
+                     <span class="docCodePlace "><b>Document code</b></span>
+                     <span class="editionPlace spaceleft "><b>Edition</b></span>
+                     <span class="amendedPlace spaceleft "><b>Amended</b></span>
+                     <span class="statusPlace spaceleft ">&nbsp;</span>
+                     <span class="historyPlace spaceleft "><b>History</b></span>
+                  </li>
+                  }
+                  @foreach (var rule in group)
+                  {
+                     if (rule.IsFirstPartOfSubGroup(group))
+                     {
+                        <li class="ruleDoc ruleDocSubHeading ruleLayout groupHidden" 
+                            data-subgroup="@rule.RulePartNumber">
+                           <span class="namePlace rulePartHeading">
+                              <b>Part @rule.RulePartNumber @rule.RulePartTitle</b>&nbsp;
+                           </span>
+
+                           <span class="docCodePlace ">&nbsp;</span>
+                           <span class="editionPlace spaceleft">Edition</span>
+                           <span class="amendedPlace spaceleft">Amended</span>
+                           <span class="statusPlace spaceleft">&nbsp;</span>
+                           <span class="historyPlace spaceleft">History</span>
+                         </li>
+                     }
+                     <li data-servicecategories='@string.Join(" ",rule.ServiceCategories)'
+                         data-industrycategories='@string.Join(" ",rule.IndustryCategories)'
+                         data-freetext="@rule.Name.ToLowerInvariant() @rule.DocumentCode.ToLowerInvariant() @rule.GetRulePartAndChapter() @rule.GetRulePartAndChapter(true)"
+                         data-subgroup="@rule.RulePartNumber"
+                         class="ruleDoc ruleLayout groupHidden weakBottom filterableRuleDoc">
+                        <span class="namePlace">
                            @if (rule.RulePartNumber > 0)
                            {
-                              <span>@rule.GetRulePartAndChapter()</span>
+                              <span class="partChapterHeading">
+                                 <a href="@rule.DownloadLink" download>
+                                    Ch @rule.GetRulePartAndChapter()
+                                 </a>
+                              </span>
                               <span class="padLeft">&nbsp;</span>
                            }
-                           
-                           <a href="/Content/Images/notready.png" download>@rule.Name</a>
+
+                           <a href="@rule.DownloadLink" download>@rule.Name</a>
                         </span>
-                        <span class="docCodePlace weakBottom"><a href="/Content/Images/notready.png" download>@rule.DocumentCode</a></span>
-                        <span class="editionPlace spaceleft weakBottom @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@Html.Raw(rule.Edition.MonthYear())</span>
-                        <span class="amendedPlace spaceleft weakBottom">@Html.Raw(rule.Amended.MonthYear())</span>
-                        <span class="statusPlace spaceleft weakBottom @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@rule.Status</span>
-                        <span class="historyPlace spaceleft weakBottom">
-                           <a href="/Content/Images/notready.png" download>
+                        <span class="docCodePlace"><a href="" download>@rule.DocumentCode</a></span>
+                        <span class="editionPlace spaceleft @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@Html.Raw(rule.Edition.MonthYear())</span>
+                        <span class="amendedPlace spaceleft">@Html.Raw(rule.Amended.MonthYear())</span>
+                        <span class="statusPlace spaceleft @rule.LatestEditionClass(group.Max(rd => rd.Edition))">@rule.Status</span>
+                        <span class="historyPlace spaceleft">
+                           <a href="javascript:alert('Not implemented yet, sorry.')">
                               <img src="/Content/Images/plus.gif" class="floatUp" height="18" width="18" class="expandHistory" alt="see history" />
                            </a>
                         </span>
@@ -124,7 +155,7 @@
             var img = $(this);
             expandGroup(img);
          });
-         $('.topHeadingplace').click(function () {
+         $('.topHeadingplace').click(function() {
             var expandButton = $('.expandGroup', $(this).parent());
             var collapseButton = $('.collapseGroup', $(this).parent());
             if (expandButton.is(':visible')) {
@@ -165,6 +196,23 @@
             window.freeTextTimeout = setTimeout(function() {
                doFreeTextFilter(filter);
             }, 500);
+         });
+
+         $('#clearFilters').click(function () {
+            if ($('#industryFilter').val() != '') {
+               $('#industryFilter').val('');
+               $('#industryFilter').change();
+            }
+            if (
+               $('#serviceFilter').val() != '') {
+               $('#serviceFilter').val('');
+               $('#serviceFilter').change();
+            }
+            if (
+               $('#freeTextFilter').val() != '') {
+               $('#freeTextFilter').val('');
+               $('#freeTextFilter').change();
+            }
          });
 
          $('#collapseAll').click(function() {
@@ -228,10 +276,10 @@
             return;
          };
          if (filter == '') {
-            $('#rules li.ruleDoc').removeClass('freeTextFiltered');
+            $('#rules li.filterableRuleDoc').removeClass('freeTextFiltered');
          } else {
-            $('#rules li.ruleDoc').addClass('freeTextFiltered');
-            $('#rules li.ruleDoc[data-freetext*="' + filter + '"]').removeClass('freeTextFiltered');
+            $('#rules li.filterableRuleDoc').addClass('freeTextFiltered');
+            $('#rules li.filterableRuleDoc[data-freetext*="' + filter + '"]').removeClass('freeTextFiltered');
          }
          window.lastFreeTextFilter = filter;
          doPostFilterCleanup();
@@ -241,10 +289,10 @@
 
       function doserviceFilter(filter) {
          if (filter == '') {
-            $('#rules li.ruleDoc').removeClass('serviceFiltered');
+            $('#rules li.filterableRuleDoc').removeClass('serviceFiltered');
          } else {
-            $('#rules li.ruleDoc').addClass('serviceFiltered');
-            $('#rules li.ruleDoc[data-servicecategories *= "' + filter + '"]').removeClass('serviceFiltered');
+            $('#rules li.filterableRuleDoc').addClass('serviceFiltered');
+            $('#rules li.filterableRuleDoc[data-servicecategories *= "' + filter + '"]').removeClass('serviceFiltered');
          }
          doPostFilterCleanup();
          $('#filterSpinner').hide();
@@ -252,10 +300,10 @@
 
       function doindustryFilter(filter) {
          if (filter == '') {
-            $('#rules li.ruleDoc').removeClass('industryFiltered');
+            $('#rules li.filterableRuleDoc').removeClass('industryFiltered');
          } else {
-            $('#rules li.ruleDoc').addClass('industryFiltered');
-            $('#rules li.ruleDoc[data-industrycategories *= "' + filter + '"]').removeClass('industryFiltered');
+            $('#rules li.filterableRuleDoc').addClass('industryFiltered');
+            $('#rules li.filterableRuleDoc[data-industrycategories *= "' + filter + '"]').removeClass('industryFiltered');
          }
          doPostFilterCleanup();
          $('#filterSpinner').hide();
@@ -283,22 +331,46 @@
 
       function doPostFilterCleanup() {
          $('.ruleGroup').each(function() { cleanupRuleGroup($(this)); });
+         cleanupSubHeadings();
       }
 
       function cleanupRuleGroup(group) {
          var collapseButton = $('.collapseGroup', group);
          var expandButton = $('.expandGroup', group);
          var visible = $('.ruleDoc', group)
-         .not('.freeTextFiltered')
-         .not('.serviceFiltered')
-         .not('.industryFiltered')
-         .length
-         ;
-         if (visible == 0) {
+            .not('.freeTextFiltered')
+            .not('.serviceFiltered')
+            .not('.industryFiltered')
+            .not('.ruleDocSubHeading');
+         if (visible.length == 0) {
             collapseButton.click();
          } else {
             expandButton.click();
          }
+      }
+
+      function cleanupSubHeadings() {
+         $('.ruleGroup').each(function() {
+            var group = $(this);
+            var visible = $('.ruleDoc', group)
+               .not('.freeTextFiltered')
+               .not('.serviceFiltered')
+               .not('.industryFiltered')
+               .not('.groupHidden');
+            showRelevantSubHeadings(group, visible);
+         });
+      }
+
+      function showRelevantSubHeadings(group, visibleInGroup) {
+         $('.ruleDocSubHeading', group).addClass('subHeadingHidden');
+         $('.ruleDocSubHeading', group).each(function() {
+            var me = $(this);
+            var mySubGroupNo = me.data('subgroup');
+            var visibleChildren = visibleInGroup.filter('[data-subgroup="' + mySubGroupNo + '"]').not('.ruleDocSubHeading');
+            if (visibleChildren.length > 0) {
+               me.removeClass('subHeadingHidden');
+            }
+         });
       }
 
    </script>

@@ -29,6 +29,7 @@ namespace RuleViewerPrototype.Controllers
             InitialFreeTextFilter = freeTextFilter
          };
          model.CheckFilterSanity();
+         model.GroupAndOrderRules();
          return View(model);
       } 
    }

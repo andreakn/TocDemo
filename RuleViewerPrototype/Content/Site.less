@@ -12,21 +12,7 @@ div.space {
    margin-top: 15px;
 }
 
-.categoryFiltered {
-   display: none;
-}
-.serviceFiltered {
-   display: none;
-}
-.industryFiltered {
-   display: none;
-}
-
-.freeTextFiltered {
-   display: none;
-}
-
-.groupHidden{
+.groupHidden, .subHeadingHidden, .freeTextFiltered, .industryFiltered, .categoryFiltered, .serviceFiltered{
    display:none;
 }
 
@@ -41,12 +27,18 @@ div.space {
    cursor: pointer;
 }
 
+.navbar-white{
+   background:white;
+}
+
 /* table layout */
 @tablewidth : 1140px;
 @gap : 2px;
 @buttonwidth: 30px;
 @editionwidth: 65px;
 @amendedwidth: @editionwidth;
+
+@partChapterWidth: 100px;
 
 @statuswidth: 40px;
 @historywidth: 65px;
@@ -68,7 +60,7 @@ div.space {
    font-size: 12px;
 
    ul.ruleGroup{
-      span.weakBottom{
+      li.weakBottom{
          border-bottom:1px solid #eee; 
       }
 
@@ -139,6 +131,9 @@ div.space {
          }
          span.historyPlace{
             width:@historywidth;
+         }
+         span.partChapterHeading{
+            width:@partChapterWidth;
          }
       }
 
