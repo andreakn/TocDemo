@@ -5,52 +5,56 @@
 }
 
 <div id="fiddlingArea">
-   <div class="clear" id="historySelectors" >
-      <span>Current as of: </span>
-      <select id="currentAsOf" class="input-sm">
-         @foreach (var edition in Model.Editions)
-         {
-            <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
-         }
-      </select>
-      <input type="button" class="btn btn-default btn-sm" id="collapseAll" value="Show only 'Document type' headings" />
-      <input type="button" class="btn btn-default btn-sm" id="expandAll" value="Show all documents" />
-   </div>
-   <div id="filters" class="space">
-      <div id="filter1" class="filter">
-         Industry:
-         <select id="industryFilter" class="input-sm">
-            <option value=""> -- no filter -- </option>
-            @foreach (var cat in Model.IndustryCategories)
+   <div class="fiddlingTools">
+      <div class="clear" id="historySelectors">
+         <span>Current as of: </span>
+         <select id="currentAsOf" class="input-sm">
+            @foreach (var edition in Model.Editions)
             {
-               <option value="@cat">@cat</option>
+               <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
             }
          </select>
+         <input type="button" class="btn btn-default btn-sm" id="collapseAll" value="Show only 'Document type' headings" />
+         <input type="button" class="btn btn-default btn-sm" id="expandAll" value="Show all documents" />
       </div>
-      <div id="filter2" class="filter">
-         Service:
-         <select id="serviceFilter" class="input-sm">
-            <option value=""> -- no filter -- </option>
-            @foreach (var cat in Model.ServiceCategories)
-            {
-               <option value="@cat">@cat</option>
-            }
-         </select>
-      </div>
-      <div id="filter2" class="filter">
-         Free text filter: <input type="text" class="input-xs" placeholder="start typing to filter" id="freeTextFilter" />
-      </div>
-      <div class="filter">
-         <input type="button" class="btn btn-default btn-sm" id="clearFilters" value="Clear all filters" />
-      </div>
-      <div class="filter">
-         <span id="filterSpinner" style="display: none;">
-            <img src="/Content/Images/spinner.GIF" alt="loading" />
-            please wait ...
-         </span>
+      <div id="filters" class="space">
+         <div class="clear"></div>
+         <div id="filter1" class="filter">
+            Industry:
+            <select id="industryFilter" class="input-sm">
+               <option value=""> -- no filter -- </option>
+               @foreach (var cat in Model.IndustryCategories)
+               {
+                  <option value="@cat">@cat</option>
+               }
+            </select>
+         </div>
+         <div id="filter2" class="filter">
+            Service:
+            <select id="serviceFilter" class="input-sm">
+               <option value=""> -- no filter -- </option>
+               @foreach (var cat in Model.ServiceCategories)
+               {
+                  <option value="@cat">@cat</option>
+               }
+            </select>
+         </div>
+         <div id="filter2" class="filter">
+            Free text filter: <input type="text" class="input-xs" placeholder="start typing to filter" id="freeTextFilter" />
+         </div>
+         <div class="filter">
+            <input type="button" class="btn btn-default btn-sm" id="clearFilters" value="Clear all filters" />
+         </div>
+         <div class="filter">
+            <span id="filterSpinner" style="display: none;">
+               <img src="/Content/Images/spinner.GIF" alt="loading" />
+               please wait ...
+            </span>
+         </div>
+         <div class="clear"></div>
+
       </div>
    </div>
-   
 </div>
 
 
