@@ -31,6 +31,18 @@ div.space {
    background:white;
 }
 
+#fiddlingArea{
+   position:fixed !important; 
+   background-color: white !important;
+   margin-right:auto;
+   margin-left:auto;
+   padding-left:15px;
+   padding-right:15px;
+}
+#rulesTable{
+   padding-top:100px;
+}
+
 /* table layout */
 @tablewidth : 1140px;
 @gap : 2px;
@@ -107,7 +119,9 @@ div.space {
       li.ruleLayout{
          clear:both;
          width:@tablewidth;
-         height:25px;
+         padding-top:5px;
+         padding-bottom:0px;
+         overflow:hidden;
          span{
             float:left;
          }

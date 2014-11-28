@@ -4,20 +4,18 @@
     ViewBag.Title = "Index";
 }
 
-
-<div class="clear" id="historySelectors">
-   <span>Current as of: </span>
-   <select id="currentAsOf" class="input-sm">
-      @foreach (var edition in Model.Editions)
-      {
-         <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
-      }
-   </select>
-   <input type="button" class="btn btn-default btn-sm" id="collapseAll" value="Show only 'Document type' headings" />
-   <input type="button" class="btn btn-default btn-sm" id="expandAll" value="Show all documents" />
-</div>
-
-<div>
+<div id="fiddlingArea">
+   <div class="clear" id="historySelectors" >
+      <span>Current as of: </span>
+      <select id="currentAsOf" class="input-sm">
+         @foreach (var edition in Model.Editions)
+         {
+            <option value="@edition" @Model.SelectedIfLatestEdition(edition)>@edition</option>
+         }
+      </select>
+      <input type="button" class="btn btn-default btn-sm" id="collapseAll" value="Show only 'Document type' headings" />
+      <input type="button" class="btn btn-default btn-sm" id="expandAll" value="Show all documents" />
+   </div>
    <div id="filters" class="space">
       <div id="filter1" class="filter">
          Industry:
@@ -28,8 +26,8 @@
                <option value="@cat">@cat</option>
             }
          </select>
-      </div> 
-      <div id="filter2" class="filter" >
+      </div>
+      <div id="filter2" class="filter">
          Service:
          <select id="serviceFilter" class="input-sm">
             <option value=""> -- no filter -- </option>
@@ -52,7 +50,12 @@
          </span>
       </div>
    </div>
-   <div id="rules" class="space">
+   
+</div>
+
+
+
+   <div id="rules" class="space" >
       <ul id="rulesTable">
          
         
@@ -79,14 +82,14 @@
                   </li>
                   @if (!group.Any(r => r.RuleChapterNumber > 0))
                   {
-                  <li class="ruleDocHeading ruleLayout groupHidden"  >
-                     <span class="namePlace ">&nbsp;</span>
-                     <span class="docCodePlace "><b>Document code</b></span>
-                     <span class="editionPlace spaceleft "><b>Edition</b></span>
-                     <span class="amendedPlace spaceleft "><b>Amended</b></span>
-                     <span class="statusPlace spaceleft ">&nbsp;</span>
-                     <span class="historyPlace spaceleft "><b>History</b></span>
-                  </li>
+                     <li class="ruleDocHeading ruleLayout groupHidden"  >
+                        <span class="namePlace ">&nbsp;</span>
+                        <span class="docCodePlace "><b>Document code</b></span>
+                        <span class="editionPlace spaceleft "><b>Edition</b></span>
+                        <span class="amendedPlace spaceleft "><b>Amended</b></span>
+                        <span class="statusPlace spaceleft ">&nbsp;</span>
+                        <span class="historyPlace spaceleft "><b>History</b></span>
+                     </li>
                   }
                   @foreach (var rule in group)
                   {
@@ -103,7 +106,7 @@
                            <span class="amendedPlace spaceleft">Amended</span>
                            <span class="statusPlace spaceleft">&nbsp;</span>
                            <span class="historyPlace spaceleft">History</span>
-                         </li>
+                        </li>
                      }
                      <li data-servicecategories='@string.Join(" ",rule.ServiceCategories)'
                          data-industrycategories='@string.Join(" ",rule.IndustryCategories)'
