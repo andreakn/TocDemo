@@ -43,6 +43,7 @@ namespace RuleViewerPrototype.Models
       public int RuleChapterNumber { get; set; }
       public string RulePartTitle { get; set; }
       public string DownloadLink { get; set; }
+      public int DocTypeSortOrder { get; set; }
 
 
       public string LatestEditionClass(DateTime? latestEdition)

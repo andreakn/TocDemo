@@ -10,12 +10,28 @@ namespace RuleViewerPrototype.Models
    {
       public List<string> ServiceCategories
       {
-         get { return RuleDocs.SelectMany(rd => rd.ServiceCategories).Distinct().OrderBy(s => s).ToList(); }
+         get { return RuleDocs.SelectMany(rd => rd.ServiceCategories).Distinct().OrderBy(ServiceCategoryOrdering).ThenBy(s=>s).ToList(); }
       }
       public List<string> IndustryCategories
       {
-         get { return RuleDocs.SelectMany(rd => rd.IndustryCategories).Distinct().OrderBy(s => s).ToList(); }
+         get { return RuleDocs.SelectMany(rd => rd.IndustryCategories).Distinct().OrderBy(IndustryCategoryOrdering).ThenBy(s => s).ToList(); }
       }
+
+      private int IndustryCategoryOrdering(string input)
+      {
+         if (input.ToLower().StartsWith("mar")) return 1;
+         if (input.ToLower().StartsWith("energy")) return 2;
+         return 100;
+      }
+
+      private int ServiceCategoryOrdering(string input)
+      {
+         if (input.ToLower().StartsWith("ship")) return 1;
+         if (input.ToLower().StartsWith("offsho")) return 2;
+         if (input.ToLower().StartsWith("renewa")) return 3;
+         return 100;
+      }
+
 
       public List<string> Editions
       {
@@ -79,19 +95,28 @@ namespace RuleViewerPrototype.Models
       }
 
 
-      public Dictionary<string, List<RuleDoc>> GroupedAndOrderedRules;
+      public List<RuleDocType> GroupedAndOrderedRules;
 
       public void GroupAndOrderRules()
       {
-         GroupedAndOrderedRules = new Dictionary<string, List<RuleDoc>>();
+         GroupedAndOrderedRules = new List<RuleDocType>();
 
          var groups = RuleDocs.GroupBy(rd => rd.HeadingName);
          foreach (var ruleGroup in groups)
          {
             var list =
                ruleGroup.OrderBy(r => r.RulePartNumber).ThenBy(r => r.RuleChapterNumber).ThenBy(r => r.Name).ToList();
-            GroupedAndOrderedRules[ruleGroup.Key] = list;
+            var name = ruleGroup.Key;
+            var sortOrder = ruleGroup.First().DocTypeSortOrder;
+            GroupedAndOrderedRules.Add(new RuleDocType
+            {
+               DocTypeName = name,
+               SortOrder = sortOrder,
+               RuleDocs = list
+            });
          }
+         GroupedAndOrderedRules =
+            GroupedAndOrderedRules.OrderBy(dt => dt.SortOrder).ThenBy(dt => dt.DocTypeName).ToList();
       }
 
    }

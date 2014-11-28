@@ -57,9 +57,9 @@
          
         
 
-         @foreach (var key in Model.GroupedAndOrderedRules.Keys)
+         @foreach (var docType in Model.GroupedAndOrderedRules)
          {
-            var group = Model.GroupedAndOrderedRules[key];
+            var group = docType.RuleDocs;
             
             <li>
                <ul class="ruleGroup">
@@ -69,7 +69,7 @@
                         <img src="/Content/Images/minus.gif" class="collapseGroup" alt="collapse" style="display: none;" />
                      </span>
                      <span class="topHeadingplace clickable">
-                        <b>@key</b>
+                        <b>@docType.DocTypeName</b>
                         <br/>
                         @group.Max(rd=>rd.Edition).MonthYear()
                      </span>

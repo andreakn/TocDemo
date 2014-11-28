@@ -44,7 +44,7 @@ DNVGL	RP	1277	RP	11	Ship classification	Maritime				Calculation of Shafts in Mar
 DNVGL	RP	1278	RP	11	Ship classification	Maritime				Calculation of Marine Propellers	2015-10			"CN;#12"	41.5	ORS	"WP 6;#6"
 DNVGL	RP	1279	RP	11	Ship classification	Maritime				Schematic principles for Steering Gear Hydraulics	2015-10			"CN;#12"	41.6	ORS	"WP 6;#6"
 DNVGL	RP	1280	RP	11	Ship classification	Maritime				Ice Strengthening of Propulsion Machinery	2015-10			"CN;#12"	51.1	ORS	"WP 6;#6"
-DNVGL	RP	1281	RP	11	Ship classification	Maritime				Shock Testing of Equipment and Systems â€“ Naval Applications	2015-10			"CN;#12"	57.1	ORS	"WP 6;#6"
+DNVGL	RP	1281	RP	11	Ship classification	Maritime				Shock Testing of Equipment and Systems – Naval Applications	2015-10			"CN;#12"	57.1	ORS	"WP 6;#6"
 DNVGL	RP	1282	RP	11	Ship classification	Maritime				Full Scale Testing of Escort Vessels	2015-10			"CN;#12"	57.2	ORS	"WP 7 ;#7"
 DNVGL	RP	1283	RP	11	Ship classification	Maritime				Cargo Vapour Recovery Systems	2015-10			"CN;#12"	61.1	ORS	"WP 6;#6"
 DNVGL	RP	1284	RP	11	Ship classification	Maritime				LNG Boil-off Re-Liquefaction Plants and Gas Combustion Units	2015-10			"CN;#12"	61.2	ORS	"WP 6;#6"
@@ -439,7 +439,7 @@ DNVGL	ST	1373	ST	10	Ship classification	Maritime				Offshore Containers.  Annex1
 DNVGL	ST	1374	ST	10	Ship classification	Maritime				Offshore Service Containers	2016-02			"STC;#10"	2.7-2		
 DNVGL	ST	1375	ST	10	Ship classification	Maritime				Portable Offshore Units	2016-02			"STC;#10"	2.7-3		
 DNVGL	ST	1376	ST	10	Ship classification	Maritime				Freight Containers	2016-02			"STC;#10"	2.7-4		
-DNVGL	ST	1377	ST	10	Ship classification	Maritime				Diesel Engine Driven Power Plants â€” Certification, Testing and Inspections	2016-02			"STC;#10"	2.10	ORS	"WP 6;#6"
+DNVGL	ST	1377	ST	10	Ship classification	Maritime				Diesel Engine Driven Power Plants — Certification, Testing and Inspections	2016-02			"STC;#10"	2.10	ORS	"WP 6;#6"
 DNVGL	ST	1378	ST	10	Ship classification	Maritime				Certification of Gas Burning Internal Combustion Engine Installations	2016-02			"STC;#10"	2.11	ORS	"WP 6;#6"
 DNVGL	ST	1379	ST	10	Ship classification	Maritime				Type Approval of Marine Equipment on behalf of Maritime- and Coastguard Safety Agency (MCA)	2016-02			"STC;#10"	2.12	ORS	"WP 6;#6"
 DNVGL	ST	1380	ST	10	Ship classification	Maritime				Standard for Certification of Maritime Simulator Systems	2016-02			"STC;#10"	2.14		
@@ -455,7 +455,7 @@ DNVGL	ST	1389	ST	10	Ship classification	Maritime				Electrical Shore Connections
 DNVGL	ST	1390	ST	10	Ship classification	Maritime				Competence related services	2016-02			"STC;#10"	3		
 DNVGL	ST	1391	ST	10	Ship classification	Maritime				Competence Management Systems	2016-02			"STC;#10"	3.101		
 DNVGL	ST	1392	ST	10	Ship classification	Maritime				Learning Programmes	2016-02			"STC;#10"	3.201		
-DNVGL	ST	1393	ST	10	Ship classification	Maritime				Competence of Shipâ€™s superintendents	2016-02			"STC;#10"	3.301		
+DNVGL	ST	1393	ST	10	Ship classification	Maritime				Competence of Ship’s superintendents	2016-02			"STC;#10"	3.301		
 DNVGL	ST	1394	ST	10	Ship classification	Maritime				Competence of Shipboard LNG Cargo Operators	2016-02			"STC;#10"	3.302		
 DNVGL	ST	1395	ST	10	Ship classification	Maritime				STCW Basic Safety for Seafarers	2016-02			"STC;#10"	3.303		
 DNVGL	ST	1396	ST	10	Ship classification	Maritime				Competence of Ship's Electrical Officers and Engineers	2016-02			"STC;#10"	3.304		
@@ -470,7 +470,7 @@ DNVGL	ST	1404	ST	10	Ship classification	Maritime				Competence of Cargo Operator
 DNVGL	ST	1405	ST	10	Ship classification	Maritime				Competence of Fast Rescue Craft Operators	2016-02			"STC;#10"	3.320		
 DNVGL	ST	1406	ST	10	Ship classification	Maritime				Competence of Lifeboat Coxswains	2016-02			"STC;#10"	3.321		
 DNVGL	ST	1407	ST	10	Ship classification	Maritime				Competence of Dynamic Positioning Operators - Station Keeping	2016-02			"STC;#10"	3.322		
-DNVGL	ST	1408	ST	10	Ship classification	Maritime				Competence of Maritime Teaching Professionals - Course Designers, Teachers, Lecturers, TrainÂ­ers, Instructors, Assessors	2016-02			"STC;#10"	3.323		
+DNVGL	ST	1408	ST	10	Ship classification	Maritime				Competence of Maritime Teaching Professionals - Course Designers, Teachers, Lecturers, Train­ers, Instructors, Assessors	2016-02			"STC;#10"	3.323		
 DNVGL	ST	1409	ST	10	Ship classification	Maritime				Competence of Maritime Simulator Instructors	2016-02			"STC;#10"	3.324		
 DNVGL	ST	1410	ST	10	Ship classification	Maritime				Maritime Training Providers	2016-02			"STC;#10"	3.403		
 DNVGL	ST	1411	ST	10	Ship classification	Maritime				Crew Manning Offices Private Recruitment and Placement Services	2016-02			"STC;#10"	3.404		
@@ -478,7 +478,7 @@ DNVGL	ST	1412	ST	10	Ship classification	Maritime				Pilot Organisations	2016-02	
 DNVGL	ST	1413	ST	10	Ship classification	Maritime				Test Centre for Certification of Personnel	2016-02			"STC;#10"	3.406		
 DNVGL	ST	1414	ST	10	Ship classification	Maritime				Environmental Services	2016-02			"STC;#10"	4		
 DNVGL	ST	1415	ST	10	Ship classification	Maritime				Management systems for safe and environmentally sound Ship Recycling Facilities	2016-02			"STC;#10"	4.1		
-DNVGL	ST	1416	ST	10	Ship classification	Maritime				Approval Programmes â€“ Products, Manufacturers, Service Suppliers	2016-02			"STC;#10"	2.9	ORS	"WP 6;#6"
+DNVGL	ST	1416	ST	10	Ship classification	Maritime				Approval Programmes – Products, Manufacturers, Service Suppliers	2016-02			"STC;#10"	2.9	ORS	"WP 6;#6"
 DNVGL	ST	1417	ST	10	Ship classification	Maritime			Type approval programmes	Type approval programmes: Welding Consumables	2016-02			"TAP;#24"	1-401.1	ORS	"WP 5;#5"
 DNVGL	ST	1418	ST	10	Ship classification	Maritime			Type approval programmes	Fibre Reinforced Thermosetting Plastic Pipes	2016-02			"TAP;#24"	1-501.1	ORS	"WP 5;#5"
 DNVGL	ST	1419	ST	10	Ship classification	Maritime			Type approval programmes	Thermoplastic Pipes	2016-02			"TAP;#24"	1-501.2	ORS	"WP 5;#5"
@@ -522,7 +522,7 @@ DNVGL	ST	1456	ST	10	Ship classification	Maritime			Type approval programmes	Fast
 DNVGL	ST	1457	ST	10	Ship classification	Maritime			Type approval programmes	Sacrificial Anode Materials	2016-02			"TAP;#24"	5-794.40	ORS	"WP 6;#6"
 DNVGL	ST	1458	ST	10	Ship classification	Maritime			Type approval programmes	Protective Coating Systems	2016-02			"TAP;#24"	6-800	ORS	"WP 6;#6"
 DNVGL	ST	1459	ST	10	Ship classification	Maritime			Type approval programmes	Shop Primers for Corrosion Protection of Steel Plates and Sections	2016-02			"TAP;#24"	7-473.11	ORS	"WP 6;#6"
-DNVGL	ST	1460	ST	10	Ship classification	Maritime			Type approval programmes	Antiâ€“Fouling Systems	2016-02			"TAP;#24"	7-473.12	ORS	"WP 6;#6"
+DNVGL	ST	1460	ST	10	Ship classification	Maritime			Type approval programmes	Anti–Fouling Systems	2016-02			"TAP;#24"	7-473.12	ORS	"WP 6;#6"
 DNVGL	ST	1461	ST	10	Ship classification	Maritime			Type approval programmes	Protective Coating Systems - Cargo Oil Tanks	2016-02			"TAP;#24"	7-473.13	ORS	"WP 6;#6"
 DNVGL	ST	1462	ST	10	Ship classification	Maritime			Type approval programmes	Passenger and Crew Seats	2016-02			"TAP;#24"	7-473.19	ORS	"WP 6;#6"
 DNVGL	ST	1463	ST	10	Ship classification	Maritime			Type approval programmes	Flexible Mounts used for Propulsion or Auxiliary Machinery	2016-02			"TAP;#24"	7-473.30/31	ORS	"WP 6;#6"
@@ -535,14 +535,14 @@ DNVGL	ST	1469	ST	10	Ship classification	Maritime			Type approval programmes	Gas 
 DNVGL	ST	1470	ST	10	Ship classification	Maritime			Type approval programmes	Boilers	2016-02			"TAP;#24"	10-706.70-1	ORS	"WP 6;#6"
 DNVGL	ST	1471	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Hydraulic Cylinders	2016-02			"TAP;#24"	760.30/40 MED A.1/2.8	ORS	"WP 6;#6"
 DNVGL	ST	1472	ST	10	Ship classification	Maritime			Type approval programmes	Spark Arrestors	2016-02			"TAP;#24"	771.60	ORS	"WP 6;#6"
-DNVGL	ST	1473	ST	10	Ship classification	Maritime			Type approval programmes	Flexible Hoses of Nonâ€“Metallic Material	2016-02			"TAP;#24"	771.91	ORS	"WP 6;#6"
+DNVGL	ST	1473	ST	10	Ship classification	Maritime			Type approval programmes	Flexible Hoses of Non–Metallic Material	2016-02			"TAP;#24"	771.91	ORS	"WP 6;#6"
 DNVGL	ST	1474	ST	10	Ship classification	Maritime			Type approval programmes	Flexible Hoses of Metallic Material	2016-02			"TAP;#24"	775.60	ORS	"WP 6;#6"
 DNVGL	ST	1475	ST	10	Ship classification	Maritime			Type approval programmes	Pipe Couplings	2016-02			"TAP;#24"	785.70	ORS	"WP 6;#6"
 DNVGL	ST	1476	ST	10	Ship classification	Maritime			Type approval programmes	Air Vent Heads	2016-02			"TAP;#24"	785.80	ORS	"WP 6;#6"
 DNVGL	ST	1477	ST	10	Ship classification	Maritime			Type approval programmes	Valves	2016-02			"TAP;#24"	470	ORS	"WP 6;#6"
 DNVGL	ST	1478	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Electric Equipment	2016-02			"TAP;#24"	MED A.1/3	ORS	"WP 6;#6"
-DNVGL	ST	1479	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Alarm Central Unit â€“ Control, Indicating and Power Supply Equipment	2016-02			"TAP;#24"	842.10 - MED A.1/ 4.34-4.38	ORS	"WP 6;#6"
-DNVGL	ST	1480	ST	10	Ship classification	Maritime			Type approval programmes	Fire Detectors â€“ Heat and Smoke Detectors	2016-02			"TAP;#24"	842.20	ORS	"WP 6;#6"
+DNVGL	ST	1479	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Alarm Central Unit – Control, Indicating and Power Supply Equipment	2016-02			"TAP;#24"	842.10 - MED A.1/ 4.34-4.38	ORS	"WP 6;#6"
+DNVGL	ST	1480	ST	10	Ship classification	Maritime			Type approval programmes	Fire Detectors – Heat and Smoke Detectors	2016-02			"TAP;#24"	842.20	ORS	"WP 6;#6"
 DNVGL	ST	1481	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Fire Alarm Manual Call Points	2016-02			"TAP;#24"	842.40 - MED A.1/ 4.37	ORS	"WP 6;#6"
 DNVGL	ST	1482	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Alarm Devices - Sounders	2016-02			"TAP;#24"	842.50 - MED A.1/ 4.39	ORS	"WP 6;#6"
 DNVGL	ST	1483	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Gas Detector System and Gas Detectors	2016-02			"TAP;#24"	843.20 - MED A.1/ 4.6	ORS	"WP 6;#6"
@@ -550,7 +550,7 @@ DNVGL	ST	1484	ST	10	Ship classification	Maritime			Type approval programmes for 
 DNVGL	ST	1485	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Engineer's Alarm and Watch Call System	2016-02			"TAP;#24"	844.10 - MED A.1/ 4.3	ORS	"WP 6;#6"
 DNVGL	ST	1486	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Instrumentation And Automation Equipment October 2009	2016-02			"TAP;#24"	844.20 - MED A.1/ 4.1	ORS	"WP 6;#6"
 DNVGL	ST	1487	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Flame Detector October 2009	2016-02			"TAP;#24"	844.40 - MED A.1/4.20-4.21-4.22-4.9	ORS	"WP 6;#6"
-DNVGL	ST	1488	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Cable and Pipe Penetrations â€“ Fire Safety	2016-02			"TAP;#24"	844.50 - MED A.1/ 4.2	ORS	"WP 6;#6"
+DNVGL	ST	1488	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Cable and Pipe Penetrations – Fire Safety	2016-02			"TAP;#24"	844.50 - MED A.1/ 4.2	ORS	"WP 6;#6"
 DNVGL	ST	1489	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	Computer based Diesel Engine performance Analyser and Performance monitoring systems	2016-02			"TAP;#24"	844.60 - MED A.1/ 4.33	ORS	"WP 6;#6"
 DNVGL	ST	1490	ST	10	Ship classification	Maritime			Type approval programmes	Planned Maintenance System (PMS)	2016-02			"TAP;#24"	844.70	ORS	"WP 6;#6"
 DNVGL	ST	1491	ST	10	Ship classification	Maritime			Type approval programmes for marine equipment directive	On-board NOx Monitoring and Recording Devices	2016-02			"TAP;#24"	844.80 - MED A.1/ 4.16	ORS	"WP 6;#6"
@@ -579,7 +579,7 @@ DNVGL	ST	1749	ST	10	Ship classification	Maritime			Approval of manufacturers	Nav
 DNVGL	ST	1750	ST	10	Ship classification	Maritime			Approval of manufacturers	Sound Reception Systems	2016-02			"AoM;#25"	307	ORS	"WP 5;#5"
 DNVGL	ST	1751	ST	10	Ship classification	Maritime			Approval of manufacturers	Global Positioning Systems (GPS)	2016-02			"AoM;#25"	308	ORS	"WP 5;#5"
 DNVGL	ST	1752	ST	10	Ship classification	Maritime			Approval of manufacturers	Shipborne DGPS and DGLONASS Maritime Radio Beacon Equipment	2016-02			"AoM;#25"	309	ORS	"WP 5;#5"
-DNVGL	ST	1753	ST	10	Ship classification	Maritime			Approval of manufacturers	Loranâ€“C	2016-02			"AoM;#25"	310	ORS	"WP 5;#5"
+DNVGL	ST	1753	ST	10	Ship classification	Maritime			Approval of manufacturers	Loran–C	2016-02			"AoM;#25"	310	ORS	"WP 5;#5"
 DNVGL	ST	1754	ST	10	Ship classification	Maritime			Approval of manufacturers	Ship-borne combined DGPS / Dglonass Maritime Radio Beacon Equipment	2016-02			"AoM;#25"	311	ORS	"WP 5;#5"
 DNVGL	ST	1755	ST	10	Ship classification	Maritime			Approval of manufacturers	Window Wipers	2016-02			"AoM;#25"	312	ORS	"WP 5;#5"
 DNVGL	ST	1756	ST	10	Ship classification	Maritime			Approval of manufacturers	Weather Surveillance System	2016-02			"AoM;#25"	313	Offshore	"Offshore;#11"
@@ -588,15 +588,15 @@ DNVGL	ST	1758	ST	10	Ship classification	Maritime			Approval of manufacturers	Rou
 DNVGL	ST	1759	ST	10	Ship classification	Maritime			Approval of manufacturers	Sun Screen system	2016-02			"AoM;#25"	321	Offshore	"Offshore;#11"
 DNVGL	ST	1760	ST	10	Ship classification	Maritime			Approval of manufacturers	Ship-borne Voyage Data Recorder (VDR)	2016-02			"AoM;#25"	322	Offshore	"Offshore;#11"
 DNVGL	ST	1761	ST	10	Ship classification	Maritime			Approval of manufacturers	Simplified Voyage Data Recorder (S-VDR)	2016-02			"AoM;#25"	330	ORS	"WP 6;#6"
-DNVGL	ST	1762	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Firms engaged in Ultrasonic Thickness Measurements of Shipâ€™s Structure	2016-02			"AoSS;#26"	402A	ORS	"WP 5;#5"
+DNVGL	ST	1762	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Firms engaged in Ultrasonic Thickness Measurements of Ship’s Structure	2016-02			"AoSS;#26"	402A	ORS	"WP 5;#5"
 DNVGL	ST	1763	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Firms engaged in Non Destructive Testing (NDT) on Offshore Projects and Offshore Units / Components	2016-02			"AoSS;#26"	402B	Offshore	"Offshore;#11"
 DNVGL	ST	1764	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers performing Tightness Testing of Hatches with Ultrasonic Equipment on Ships, High Speed and Mobile Offshore Units	2016-02			"AoSS;#26"	403	FIS	"FIS Survey;#15"
-DNVGL	ST	1765	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers carrying out Inâ€“water Survey of Ships, High Speed and Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	404	FIS	"FIS Survey;#15"
+DNVGL	ST	1765	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers carrying out In–water Survey of Ships, High Speed and Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	404	FIS	"FIS Survey;#15"
 DNVGL	ST	1766	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Surveys and Maintenance of Fire Extinguishing Equipment, Systems and Self Contained Breathing Apparatus on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	405	ORS	"WP 6;#6"
 DNVGL	ST	1767	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the Servicing and Testing of Radio Communication Equipment on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	406	ORS	"WP 6;#6"
 DNVGL	ST	1768	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Service of Inflatable Liferafts, Inflatable Lifejackets, Hydrostatic Release Units and Inflated Rescue Boats on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	407	ORS	"WP 6;#6"
 DNVGL	ST	1769	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Inspection and Testing of Centralised Gas Welding and Cutting Equipment on Ships, High Speed, Light Craft and Mobile Offshore Units	2016-02			"AoSS;#26"	408	ORS	"WP 6;#6"
-DNVGL	ST	1770	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the examination of Roâ€“Ro Ships Bow, Stern, Side and Inner Doors	2016-02			"AoSS;#26"	409	FIS	"FIS Survey;#15"
+DNVGL	ST	1770	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the examination of Ro–Ro Ships Bow, Stern, Side and Inner Doors	2016-02			"AoSS;#26"	409	FIS	"FIS Survey;#15"
 DNVGL	ST	1771	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in survey of low location Lighting systems using photo-luminescent materials	2016-02			"AoSS;#26"	410	ORS	"WP 6;#6"
 DNVGL	ST	1772	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in Sound pressure level measurements of Public Address on General Alarm Systems	2016-02			"AoSS;#26"	411	ORS	"WP 6;#6"
 DNVGL	ST	1773	ST	10	Ship classification	Maritime			Approval of service suppliers	Approval of service suppliers: Service Suppliers engaged in the Servicing and Testing of Voyage Date Recorders	2016-02			"AoSS;#26"	412	ORS	"WP 6;#6"

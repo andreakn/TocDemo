@@ -17,7 +17,7 @@ namespace RuleViewerPrototype.Utilities
    {
       public List<RuleDoc> ReadFromFile()
       {
-         var ret = new List<RuleDoc>();
+         var ret = new List<RuleDoc>(); 
          var unimportable = new List<RuleDocImportPoco>();
          var file = File.ReadAllText(Path.Combine(HttpContext.Current.Server.MapPath("/"), "App_Data","datasource.txt"));
          var lines = file.Split('\n');
@@ -53,7 +53,8 @@ namespace RuleViewerPrototype.Utilities
                Status = "NEW",
                RulePartNumber=int.Parse("0"+poco.RUPartNo),
                RuleChapterNumber=int.Parse("0"+poco.RUChapterNo),
-               RulePartTitle=poco.RUSubtype
+               RulePartTitle=poco.RUSubtype,
+               DocTypeSortOrder = int.Parse("0"+poco.DocTypeSorting)
             };
 
             if (poco.DocCodeType == "RU")
@@ -96,26 +97,28 @@ namespace RuleViewerPrototype.Utilities
          var elems = line.Split('\t');
          try
          {
-            return new RuleDocImportPoco
+            var created = new RuleDocImportPoco
             {
                DocCodePrefix = elems[00],
                DocCodeType = elems[01],
                DocCodeSerialNo = elems[02],
                DocType = elems[03],
-               Service = elems[04],
-               Industry = elems[05],
-               RUPartNo = elems[06],
-               RUChapterNo = elems[07],
-               RUSubtype = elems[08],
-               DocumentTitle = elems[09],
-               Edition = elems[10],
-               Amended = elems[11],
-               History = elems[12],
-               L_DNV_Type = elems[13],
-               L_DNV_Code = elems[14],
-               Program = elems[15],
-               WP_or_Project = elems[16],
+               DocTypeSorting = elems[04],
+               Service = elems[05],
+               Industry = elems[06],
+               RUPartNo = elems[07],
+               RUChapterNo = elems[08],
+               RUSubtype = elems[09],
+               DocumentTitle = elems[10],
+               Edition = elems[11],
+               Amended = elems[12],
+               History = elems[13],
+               L_DNV_Type = elems[14],
+               L_DNV_Code = elems[15],
+               Program = elems[16],
+               WP_or_Project  = elems[17],
             };
+            return created;
          }
          catch (Exception ex)
          {
@@ -143,6 +146,6 @@ namespace RuleViewerPrototype.Utilities
       public string L_DNV_Code { get; set; }
       public string Program { get; set; }
       public string WP_or_Project { get; set; }
-
+      public string DocTypeSorting { get; set; }
    }
 }
